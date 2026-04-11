@@ -1,30 +1,297 @@
-<h1>プライバシーポリシー</h1>
-<p>
-  本ページは，本サービスにおけるユーザーの個人情報の取扱いについて，以下のとおりプライバシーポリシー（以下，「本ポリシー」といいます。）を定めます。
-</p>
-<h2>アプリ内広告について</h2>
-<p>
-  当アプリは、広告配信を目的として以下の広告配信事業者がご利用者の情報を
-  自動取得する場合があります。
-  取得する情報、利用目的、第三者への提供等につきましては、以下の広告配信事業者のアプリケーション・プライバシーポリシーのリンクよりご確認ください。
-</p>
-<ul>
-  <li>Google AdMob（Google Inc.）</li>
-  <a href="http://www.google.com/intl/ja/policies/technologies/ads/"
-    >広告 – ポリシーと規約 – Google</a
-  >
-</ul>
+<!DOCTYPE html>
+<html lang="ja">
 
-<h2>アクセス解析ツールについて</h2>
-<p>
-  当アプリには、サービスの利用状況を把握するためにGoogle
-  Analyticsを利用しているものがあります。 Google
-  Analyticsの利用により収集されたデータは、Google社のプライバシーポリシーに基づいて管理されます。
-  詳細は Googleプライバシーポリシーをご覧ください。
-</p>
-<ul>
-  <li>Google Analytics（Google Inc.）</li>
-  <a href="https://policies.google.com/privacy?hl=ja"
-    >プライバシー ポリシー – ポリシーと規約 – Google</a
-  >
-</ul>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODOタイマー — タイマー付きTODOアプリ</title>
+  <meta name="description" content="やることを決めて、タイマーで集中。シンプルなタイマー付きTODOアプリ。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1E293B;
+      --bg: #FAFAFA;
+      --card: #FFFFFF;
+      --text: #0F172A;
+      --text-secondary: #64748B;
+      --text-hint: #94A3B8;
+      --border: #E2E8F0;
+      --input: #F1F5F9;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Noto Sans JP', -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    header {
+      padding: 80px 0 60px;
+      text-align: center;
+    }
+
+    .app-icon {
+      width: 80px;
+      height: 80px;
+      border-radius: 20px;
+      background: var(--primary);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 0 6px rgba(30, 41, 59, 0.08);
+      margin-bottom: 24px;
+    }
+
+    .app-icon svg {
+      width: 40px;
+      height: 40px;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      color: var(--text-secondary);
+      margin-bottom: 32px;
+    }
+
+    .store-badge {
+      display: inline-block;
+      height: 48px;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: transform 0.15s ease-out;
+    }
+
+    .store-badge:hover {
+      transform: scale(1.03);
+    }
+
+    .store-badge img {
+      height: 48px;
+    }
+
+    section {
+      padding: 48px 0;
+      border-top: 1px solid var(--border);
+    }
+
+    h2 {
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 24px;
+      letter-spacing: -0.3px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    @media (max-width: 540px) {
+      .features {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .feature-card {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 1px 3px rgba(15, 23, 42, 0.08), 0 1px 2px rgba(15, 23, 42, 0.04);
+    }
+
+    .feature-card .icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      background: var(--input);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 12px;
+      font-size: 20px;
+    }
+
+    .feature-card h3 {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .feature-card p {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    .policy h3 {
+      font-size: 16px;
+      font-weight: 600;
+      margin: 32px 0 8px;
+    }
+
+    .policy h3:first-child {
+      margin-top: 0;
+    }
+
+    .policy p {
+      font-size: 14px;
+      color: var(--text-secondary);
+      margin-bottom: 12px;
+    }
+
+    .policy ul {
+      font-size: 14px;
+      color: var(--text-secondary);
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+
+    .policy li {
+      margin-bottom: 4px;
+    }
+
+    footer {
+      padding: 40px 0;
+      border-top: 1px solid var(--border);
+      text-align: center;
+    }
+
+    footer p {
+      font-size: 13px;
+      color: var(--text-hint);
+    }
+
+    footer a {
+      color: var(--text-secondary);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .contact-info {
+      font-size: 14px;
+      color: var(--text-secondary);
+    }
+
+    .contact-info a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    nav {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      margin-bottom: 16px;
+    }
+
+    nav a {
+      font-size: 13px;
+      color: var(--text-secondary);
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: var(--primary);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <div class="app-icon">
+        <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="14" cy="15" r="10" stroke="#F1F5F9" stroke-width="1.8" />
+          <path d="M14 9v6l4 3" stroke="#F1F5F9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M10 3h8" stroke="#F1F5F9" stroke-width="1.8" stroke-linecap="round" />
+        </svg>
+      </div>
+      <h1>TODOタイマー</h1>
+      <p class="subtitle">やることを決めて、タイマーで集中。</p>
+      <a class="store-badge" href="https://apps.apple.com/app/id1613885003" target="_blank" rel="noopener">
+        <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ja-jp"
+          alt="App Storeからダウンロード">
+      </a>
+    </header>
+
+    <section>
+      <h2>機能</h2>
+      <div class="features">
+        <div class="feature-card">
+          <div class="icon">⏱</div>
+          <h3>タイマーで集中</h3>
+          <p>タスクごとに時間を設定して、カウントダウンタイマーで集中できます。</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">📂</div>
+          <h3>プロジェクト管理</h3>
+          <p>タスクをプロジェクトごとに整理。スワイプで切り替えられます。</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">🔁</div>
+          <h3>繰り返しタスク</h3>
+          <p>毎日・毎週・毎月のルーティンタスクを自動化できます。</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">🔔</div>
+          <h3>通知でお知らせ</h3>
+          <p>タイマー完了時に音と通知で知らせてくれるので、作業に没頭できます。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="privacy">
+      <h2>プライバシーポリシー</h2>
+      <p style="font-size: 14px; color: var(--text-secondary);">本アプリのプライバシーポリシーは以下のページをご確認ください。</p>
+      <p style="margin-top: 12px;"><a
+          href="https://equinox-linen-5fb.notion.site/32ac154d52fd80788d52c689c5375f18?pvs=143" target="_blank"
+          rel="noopener"
+          style="color: var(--primary); text-decoration: none; font-size: 15px; font-weight: 500;">プライバシーポリシーを見る →</a>
+      </p>
+    </section>
+
+    <footer>
+      <nav>
+        <a href="https://equinox-linen-5fb.notion.site/32ac154d52fd80788d52c689c5375f18?pvs=143" target="_blank"
+          rel="noopener">プライバシーポリシー</a>
+      </nav>
+      <p>&copy; 2026 TODOタイマー</p>
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
