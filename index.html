@@ -1,297 +1,217 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TODOタイマー — タイマー付きTODOアプリ</title>
-  <meta name="description" content="やることを決めて、タイマーで集中。シンプルなタイマー付きTODOアプリ。">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --primary: #1E293B;
-      --bg: #FAFAFA;
-      --card: #FFFFFF;
-      --text: #0F172A;
-      --text-secondary: #64748B;
-      --text-hint: #94A3B8;
-      --border: #E2E8F0;
-      --input: #F1F5F9;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hiroki Kawamura - Apps</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700;800&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #FAFBFC;
+    --text: #1E293B;
+    --text-sub: #64748B;
+    --card-bg: #FFFFFF;
+    --card-shadow: 0 2px 16px rgba(0,0,0,0.06), 0 0 0 1px rgba(0,0,0,0.03);
+    --card-hover: 0 8px 32px rgba(0,0,0,0.10), 0 0 0 1px rgba(0,0,0,0.04);
+    --radius: 20px;
+  }
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
 
-    body {
-      font-family: 'Noto Sans JP', -apple-system, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.8;
-      -webkit-font-smoothing: antialiased;
-    }
+  body {
+    font-family: 'M PLUS Rounded 1c', 'Outfit', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 0 20px;
+  }
 
-    .container {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 0 24px;
-    }
+  .container {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 60px 0 80px;
+  }
 
-    header {
-      padding: 80px 0 60px;
-      text-align: center;
-    }
+  .header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
 
-    .app-icon {
-      width: 80px;
-      height: 80px;
-      border-radius: 20px;
-      background: var(--primary);
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 0 0 6px rgba(30, 41, 59, 0.08);
-      margin-bottom: 24px;
-    }
+  .header-icon {
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
 
-    .app-icon svg {
-      width: 40px;
-      height: 40px;
-    }
+  .header h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
+  }
 
-    h1 {
-      font-size: 32px;
-      font-weight: 700;
-      letter-spacing: -0.5px;
-      margin-bottom: 8px;
-    }
+  .header p {
+    font-size: 14px;
+    color: var(--text-sub);
+    line-height: 1.6;
+  }
 
-    .subtitle {
-      font-size: 16px;
-      color: var(--text-secondary);
-      margin-bottom: 32px;
-    }
+  .apps {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
 
-    .store-badge {
-      display: inline-block;
-      height: 48px;
-      border-radius: 12px;
-      overflow: hidden;
-      transition: transform 0.15s ease-out;
-    }
+  .app-card {
+    background: var(--card-bg);
+    border-radius: var(--radius);
+    box-shadow: var(--card-shadow);
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    color: inherit;
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+  }
 
-    .store-badge:hover {
-      transform: scale(1.03);
-    }
+  .app-card:hover {
+    box-shadow: var(--card-hover);
+    transform: translateY(-2px);
+  }
 
-    .store-badge img {
-      height: 48px;
-    }
+  .app-icon {
+    width: 72px;
+    height: 72px;
+    border-radius: 16px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+  }
 
-    section {
-      padding: 48px 0;
-      border-top: 1px solid var(--border);
-    }
+  .app-icon img {
+    width: 72px;
+    height: 72px;
+    border-radius: 16px;
+  }
 
-    h2 {
-      font-size: 22px;
-      font-weight: 600;
-      margin-bottom: 24px;
-      letter-spacing: -0.3px;
-    }
+  .app-info {
+    flex: 1;
+    min-width: 0;
+  }
 
-    .features {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 16px;
-    }
+  .app-name {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
 
-    @media (max-width: 540px) {
-      .features {
-        grid-template-columns: 1fr;
-      }
-    }
+  .app-tagline {
+    font-size: 13px;
+    color: var(--text-sub);
+    line-height: 1.5;
+  }
 
-    .feature-card {
-      background: var(--card);
-      border-radius: 16px;
-      padding: 24px;
-      box-shadow: 0 1px 3px rgba(15, 23, 42, 0.08), 0 1px 2px rgba(15, 23, 42, 0.04);
-    }
+  .app-badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 6px;
+    margin-top: 8px;
+  }
 
-    .feature-card .icon {
-      width: 40px;
-      height: 40px;
-      border-radius: 10px;
-      background: var(--input);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 12px;
-      font-size: 20px;
-    }
+  .badge-green { background: #E8F8EF; color: #2D7D5F; }
+  .badge-blue { background: #E8F0FE; color: #1A56DB; }
+  .badge-orange { background: #FEF3E2; color: #C2750A; }
 
-    .feature-card h3 {
-      font-size: 15px;
-      font-weight: 600;
-      margin-bottom: 4px;
-    }
+  .chevron {
+    color: #CBD5E1;
+    font-size: 20px;
+    flex-shrink: 0;
+  }
 
-    .feature-card p {
-      font-size: 13px;
-      color: var(--text-secondary);
-      line-height: 1.6;
-    }
+  .footer {
+    text-align: center;
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid #E2E8F0;
+    font-size: 12px;
+    color: #94A3B8;
+    line-height: 2;
+  }
 
-    .policy h3 {
-      font-size: 16px;
-      font-weight: 600;
-      margin: 32px 0 8px;
-    }
+  .footer a {
+    color: #64748B;
+    text-decoration: none;
+  }
 
-    .policy h3:first-child {
-      margin-top: 0;
-    }
+  .footer a:hover {
+    text-decoration: underline;
+  }
 
-    .policy p {
-      font-size: 14px;
-      color: var(--text-secondary);
-      margin-bottom: 12px;
-    }
-
-    .policy ul {
-      font-size: 14px;
-      color: var(--text-secondary);
-      padding-left: 20px;
-      margin-bottom: 12px;
-    }
-
-    .policy li {
-      margin-bottom: 4px;
-    }
-
-    footer {
-      padding: 40px 0;
-      border-top: 1px solid var(--border);
-      text-align: center;
-    }
-
-    footer p {
-      font-size: 13px;
-      color: var(--text-hint);
-    }
-
-    footer a {
-      color: var(--text-secondary);
-      text-decoration: none;
-    }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
-
-    .contact-info {
-      font-size: 14px;
-      color: var(--text-secondary);
-    }
-
-    .contact-info a {
-      color: var(--primary);
-      text-decoration: none;
-    }
-
-    .contact-info a:hover {
-      text-decoration: underline;
-    }
-
-    nav {
-      display: flex;
-      gap: 24px;
-      justify-content: center;
-      margin-bottom: 16px;
-    }
-
-    nav a {
-      font-size: 13px;
-      color: var(--text-secondary);
-      text-decoration: none;
-    }
-
-    nav a:hover {
-      color: var(--primary);
-    }
-  </style>
+  @media (max-width: 480px) {
+    .container { padding: 40px 0 60px; }
+    .header h1 { font-size: 24px; }
+    .app-card { padding: 20px; gap: 16px; }
+    .app-icon { width: 60px; height: 60px; }
+    .app-icon img { width: 60px; height: 60px; }
+    .app-name { font-size: 16px; }
+  }
+</style>
 </head>
-
 <body>
-
-  <div class="container">
-
-    <header>
-      <div class="app-icon">
-        <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="14" cy="15" r="10" stroke="#F1F5F9" stroke-width="1.8" />
-          <path d="M14 9v6l4 3" stroke="#F1F5F9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
-          <path d="M10 3h8" stroke="#F1F5F9" stroke-width="1.8" stroke-linecap="round" />
-        </svg>
-      </div>
-      <h1>TODOタイマー</h1>
-      <p class="subtitle">やることを決めて、タイマーで集中。</p>
-      <a class="store-badge" href="https://apps.apple.com/app/id1613885003" target="_blank" rel="noopener">
-        <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ja-jp"
-          alt="App Storeからダウンロード">
-      </a>
-    </header>
-
-    <section>
-      <h2>機能</h2>
-      <div class="features">
-        <div class="feature-card">
-          <div class="icon">⏱</div>
-          <h3>タイマーで集中</h3>
-          <p>タスクごとに時間を設定して、カウントダウンタイマーで集中できます。</p>
-        </div>
-        <div class="feature-card">
-          <div class="icon">📂</div>
-          <h3>プロジェクト管理</h3>
-          <p>タスクをプロジェクトごとに整理。スワイプで切り替えられます。</p>
-        </div>
-        <div class="feature-card">
-          <div class="icon">🔁</div>
-          <h3>繰り返しタスク</h3>
-          <p>毎日・毎週・毎月のルーティンタスクを自動化できます。</p>
-        </div>
-        <div class="feature-card">
-          <div class="icon">🔔</div>
-          <h3>通知でお知らせ</h3>
-          <p>タイマー完了時に音と通知で知らせてくれるので、作業に没頭できます。</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="privacy">
-      <h2>プライバシーポリシー</h2>
-      <p style="font-size: 14px; color: var(--text-secondary);">本アプリのプライバシーポリシーは以下のページをご確認ください。</p>
-      <p style="margin-top: 12px;"><a
-          href="https://equinox-linen-5fb.notion.site/32ac154d52fd80788d52c689c5375f18?pvs=143" target="_blank"
-          rel="noopener"
-          style="color: var(--primary); text-decoration: none; font-size: 15px; font-weight: 500;">プライバシーポリシーを見る →</a>
-      </p>
-    </section>
-
-    <footer>
-      <nav>
-        <a href="https://equinox-linen-5fb.notion.site/32ac154d52fd80788d52c689c5375f18?pvs=143" target="_blank"
-          rel="noopener">プライバシーポリシー</a>
-      </nav>
-      <p>&copy; 2026 TODOタイマー</p>
-    </footer>
-
+<div class="container">
+  <div class="header">
+    <div class="header-icon">🛠️</div>
+    <h1>Hiroki Kawamura</h1>
+    <p>個人で開発しているアプリたちです</p>
   </div>
 
-</body>
+  <div class="apps">
+    <a class="app-card" href="https://apps.apple.com/app/id6761958213" target="_blank">
+      <div class="app-icon">
+        <img src="icon_gamaguchi.png" alt="がまぐち">
+      </div>
+      <div class="app-info">
+        <div class="app-name">がまぐち</div>
+        <div class="app-tagline">我慢するたびお金が貯まる節約アプリ</div>
+        <span class="app-badge badge-green">節約 × キャラクター</span>
+      </div>
+      <span class="chevron">›</span>
+    </a>
 
+    <a class="app-card" href="https://apps.apple.com/app/id1613885003" target="_blank">
+      <div class="app-icon">
+        <img src="icon_todo.png" alt="TODOタイマー">
+      </div>
+      <div class="app-info">
+        <div class="app-name">TODOタイマー</div>
+        <div class="app-tagline">やることを決めて、集中する</div>
+        <span class="app-badge badge-blue">タスク × タイマー</span>
+      </div>
+      <span class="chevron">›</span>
+    </a>
+
+    <a class="app-card" href="https://apps.apple.com/app/id6759416281" target="_blank">
+      <div class="app-icon">
+        <img src="icon_cocoico.png" alt="ココイコ！">
+      </div>
+      <div class="app-info">
+        <div class="app-name">ココイコ！</div>
+        <div class="app-tagline">みんなでスポットを共有するマップアプリ</div>
+        <span class="app-badge badge-orange">マップ × 共有</span>
+      </div>
+      <span class="chevron">›</span>
+    </a>
+  </div>
+
+  <div class="footer">
+    <p>© 2026 Hiroki Kawamura</p>
+  </div>
+</div>
+</body>
 </html>
