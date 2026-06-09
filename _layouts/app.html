@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="app-lp">
+  <header class="app-header">
+    {% if page.icon %}<img src="{{ page.icon | relative_url }}" alt="{{ page.app_name }}" class="app-icon">{% endif %}
+    <h1>{{ page.app_name }}</h1>
+    <p class="tagline">{{ page.tagline }}</p>
+    {% if page.app_store_url %}<a class="cta" href="{{ page.app_store_url }}">App Storeで開く</a>{% endif %}
+  </header>
+  {{ content }}
+  <footer class="app-footer-links">
+    <a href="{{ '/apps/' | append: page.slug | append: '/privacy/' | relative_url }}">プライバシーポリシー</a>
+    <a href="{{ '/apps/' | append: page.slug | append: '/terms/' | relative_url }}">利用規約</a>
+    <a href="{{ '/apps/' | append: page.slug | append: '/tokushoho/' | relative_url }}">特定商取引法</a>
+    <a href="{{ '/apps/' | append: page.slug | append: '/support/' | relative_url }}">サポート</a>
+  </footer>
+</article>

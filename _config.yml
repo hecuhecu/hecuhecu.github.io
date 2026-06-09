@@ -1,0 +1,27 @@
+title: hecuhecu apps
+description: kawamura が個人開発しているiOSアプリのポータルおよびサポートページ
+author: kawamura
+email: hecunyuji5@gmail.com
+url: "https://hecuhecu.github.io"
+baseurl: ""
+
+# Markdown / Jekyll 設定
+markdown: kramdown
+permalink: pretty
+
+# 既存の index.html を Jekyll の処理対象から外す（壊さないため）
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Liquid テンプレ用のグローバル設定
+github_pages: true
+
+# collection: アプリ一覧（必要に応じて activate）
+# collections:
+#   apps:
+#     output: true
+#     permalink: /apps/:path/
