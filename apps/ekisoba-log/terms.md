@@ -2,6 +2,7 @@
 layout: legal
 title: 利用規約 — 立ち食いログ
 permalink: /apps/ekisoba-log/terms/
+published_app: false  # リリース時に true へ。false の間は noindex
 ---
 
 # 立ち食いログ 利用規約

@@ -2,6 +2,7 @@
 layout: legal
 title: 利用規約 — 介護者の睡眠ログ
 permalink: /apps/caregiver-sleep/terms/
+published_app: false  # リリース時に true へ。false の間は noindex
 ---
 
 # 介護者の睡眠ログ 利用規約

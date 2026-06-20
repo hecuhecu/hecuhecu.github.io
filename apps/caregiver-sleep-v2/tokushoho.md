@@ -2,6 +2,7 @@
 layout: legal
 title: 特定商取引法に基づく表記 — 介護者の睡眠ログ
 permalink: /apps/caregiver-sleep-v2/tokushoho/
+published_app: false  # リリース時に true へ。false の間は noindex
 ---
 
 # 特定商取引法に基づく表記

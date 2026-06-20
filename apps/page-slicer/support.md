@@ -2,6 +2,7 @@
 layout: legal
 title: サポート — 長尺画像分割
 permalink: /apps/page-slicer/support/
+published_app: false  # リリース時に true へ。false の間は noindex
 ---
 
 # 長尺画像分割 サポート

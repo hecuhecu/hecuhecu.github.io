@@ -2,6 +2,7 @@
 layout: legal
 title: 特定商取引法に基づく表記 — 長尺画像分割
 permalink: /apps/page-slicer/tokushoho/
+published_app: false  # リリース時に true へ。false の間は noindex
 ---
 
 # 特定商取引法に基づく表記

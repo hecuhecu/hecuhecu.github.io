@@ -2,6 +2,7 @@
 layout: legal
 title: サポート — 介護者の睡眠ログ
 permalink: /apps/caregiver-sleep/support/
+published_app: false  # リリース時に true へ。false の間は noindex
 ---
 
 # 介護者の睡眠ログ サポート

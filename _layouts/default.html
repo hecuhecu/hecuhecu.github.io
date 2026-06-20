@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | default: site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
+  {%- comment -%}
+    未リリースアプリの規約ページ・/apps/ 一覧は検索インデックスさせない。
+    個別ページの front matter に published_app: true が付くまで noindex。
+    （リリース時に各規約ページへ published_app: true を足すと検索に載るようになる）
+  {%- endcomment -%}
+  {% if page.noindex or page.sitemap == false or page.published_app == false %}
+  <meta name="robots" content="noindex, nofollow">
+  {% endif %}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/base.css' | relative_url }}">
