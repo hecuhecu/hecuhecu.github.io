@@ -27,4 +27,11 @@ sitemap: false
   - [利用規約](/apps/<slug>/terms/) ・ [プライバシーポリシー](/apps/<slug>/privacy/) ・ [サポート](/apps/<slug>/support/) ・ [特定商取引法に基づく表記](/apps/<slug>/tokushoho/)
 -->
 
-現在 App Store で配信中のアプリの規約ページはこちらに順次掲載します。配信中アプリの一覧は[トップページ](/)をご覧ください。
+- [ココイコ！](/apps/kokoiko/support/) — カップルや家族で行きたい場所を共有できる地図アプリ
+  - [利用規約](/apps/kokoiko/terms/) ・ [プライバシーポリシー](/apps/kokoiko/privacy/) ・ [サポート](/apps/kokoiko/support/) ・ [特定商取引法に基づく表記](/apps/kokoiko/tokushoho/)
+- [がまぐち](/apps/gamaguchi/support/) — 衝動買いを我慢した節約金額を記録する節約管理アプリ
+  - [利用規約](/apps/gamaguchi/terms/) ・ [プライバシーポリシー](/apps/gamaguchi/privacy/) ・ [サポート](/apps/gamaguchi/support/)
+- [TODOタイマー](/apps/todo-timer/support/) — タスクにタイマーを設定して集中して取り組めるタスク管理アプリ
+  - [利用規約](/apps/todo-timer/terms/) ・ [プライバシーポリシー](/apps/todo-timer/privacy/) ・ [サポート](/apps/todo-timer/support/)
+
+配信中アプリのショーケース（App Store へのリンク）は[トップページ](/)をご覧ください。
