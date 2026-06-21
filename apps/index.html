@@ -1,0 +1,252 @@
+---
+layout: null
+title: アプリの規約・サポート
+permalink: /apps/
+sitemap: false
+---
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>アプリの規約・サポート - hecuhecu</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700;800&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #FAFBFC;
+    --text: #1E293B;
+    --text-sub: #64748B;
+    --card-bg: #FFFFFF;
+    --card-shadow: 0 2px 16px rgba(0,0,0,0.06), 0 0 0 1px rgba(0,0,0,0.03);
+    --card-hover: 0 8px 32px rgba(0,0,0,0.10), 0 0 0 1px rgba(0,0,0,0.04);
+    --radius: 20px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'M PLUS Rounded 1c', 'Outfit', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 0 20px;
+  }
+
+  .container {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 60px 0 80px;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .header-icon {
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
+
+  .header h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
+  }
+
+  .header p {
+    font-size: 14px;
+    color: var(--text-sub);
+    line-height: 1.6;
+  }
+
+  .apps {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .app-card {
+    background: var(--card-bg);
+    border-radius: var(--radius);
+    box-shadow: var(--card-shadow);
+    padding: 24px;
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+  }
+
+  .app-card:hover {
+    box-shadow: var(--card-hover);
+    transform: translateY(-2px);
+  }
+
+  .app-head {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .app-icon {
+    width: 72px;
+    height: 72px;
+    border-radius: 16px;
+    flex-shrink: 0;
+  }
+
+  .app-icon img {
+    width: 72px;
+    height: 72px;
+    border-radius: 16px;
+    display: block;
+  }
+
+  .app-info {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .app-name {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+
+  .app-tagline {
+    font-size: 13px;
+    color: var(--text-sub);
+    line-height: 1.5;
+  }
+
+  .app-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 0;
+    margin-top: 18px;
+    padding-top: 18px;
+    border-top: 1px solid #EEF2F6;
+  }
+
+  .app-links a {
+    font-size: 13px;
+    font-weight: 600;
+    color: #2563EB;
+    text-decoration: none;
+    padding: 4px 14px;
+    position: relative;
+  }
+
+  .app-links a:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 12px;
+    background: #E2E8F0;
+  }
+
+  .app-links a:hover { text-decoration: underline; }
+
+  .footer {
+    text-align: center;
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid #E2E8F0;
+    font-size: 12px;
+    color: #94A3B8;
+    line-height: 2;
+  }
+
+  .footer a {
+    color: #64748B;
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 480px) {
+    .container { padding: 40px 0 60px; }
+    .header h1 { font-size: 24px; }
+    .app-card { padding: 20px; }
+    .app-head { gap: 16px; }
+    .app-icon, .app-icon img { width: 60px; height: 60px; }
+    .app-name { font-size: 16px; }
+    .app-links a { padding: 4px 10px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="header-icon">📄</div>
+    <h1>規約・サポート</h1>
+    <p>各アプリの利用規約・プライバシーポリシー・<br>サポート・特定商取引法に基づく表記です</p>
+  </div>
+
+  <div class="apps">
+    <div class="app-card">
+      <div class="app-head">
+        <div class="app-icon">
+          <img src="/icon_cocoico.png" alt="ココイコ！">
+        </div>
+        <div class="app-info">
+          <div class="app-name">ココイコ！</div>
+          <div class="app-tagline">カップルや家族で行きたい場所を共有できる地図アプリ</div>
+        </div>
+      </div>
+      <div class="app-links">
+        <a href="/apps/kokoiko/terms/">利用規約</a>
+        <a href="/apps/kokoiko/privacy/">プライバシーポリシー</a>
+        <a href="/apps/kokoiko/support/">サポート</a>
+        <a href="/apps/kokoiko/tokushoho/">特定商取引法に基づく表記</a>
+      </div>
+    </div>
+
+    <div class="app-card">
+      <div class="app-head">
+        <div class="app-icon">
+          <img src="/icon_gamaguchi.png" alt="がまぐち">
+        </div>
+        <div class="app-info">
+          <div class="app-name">がまぐち</div>
+          <div class="app-tagline">衝動買いを我慢した節約金額を記録する節約管理アプリ</div>
+        </div>
+      </div>
+      <div class="app-links">
+        <a href="/apps/gamaguchi/terms/">利用規約</a>
+        <a href="/apps/gamaguchi/privacy/">プライバシーポリシー</a>
+        <a href="/apps/gamaguchi/support/">サポート</a>
+      </div>
+    </div>
+
+    <div class="app-card">
+      <div class="app-head">
+        <div class="app-icon">
+          <img src="/icon_todo.png" alt="TODOタイマー">
+        </div>
+        <div class="app-info">
+          <div class="app-name">TODOタイマー</div>
+          <div class="app-tagline">タスクにタイマーを設定して集中して取り組めるタスク管理アプリ</div>
+        </div>
+      </div>
+      <div class="app-links">
+        <a href="/apps/todo-timer/terms/">利用規約</a>
+        <a href="/apps/todo-timer/privacy/">プライバシーポリシー</a>
+        <a href="/apps/todo-timer/support/">サポート</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>配信中アプリの紹介は<a href="/">トップページ</a>をご覧ください</p>
+    <p>&copy; 2026 hecuhecu</p>
+  </div>
+</div>
+</body>
+</html>
