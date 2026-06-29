@@ -2,7 +2,7 @@
 layout: legal
 title: サポート — カラーピッカー Color Grab
 permalink: /apps/color-grab/support/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: true   # リリース済み
 ---
 
 # カラーピッカー - Color Grab サポート
