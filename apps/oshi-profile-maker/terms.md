@@ -2,7 +2,7 @@
 layout: legal
 title: 利用規約 — 推しプロフメーカー
 permalink: /apps/oshi-profile-maker/terms/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: true  # 公開済み(2026-07-02 リリース準備)
 ---
 
 # 利用規約
