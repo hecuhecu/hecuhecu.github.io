@@ -2,7 +2,7 @@
 layout: legal
 title: プライバシーポリシー — フィルム在庫管理 - フィルムストック
 permalink: /apps/film-stock-tracker/privacy/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: true
 ---
 
 # プライバシーポリシー

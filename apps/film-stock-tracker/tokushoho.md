@@ -2,7 +2,7 @@
 layout: legal
 title: 特定商取引法に基づく表記 — フィルム在庫管理 - フィルムストック
 permalink: /apps/film-stock-tracker/tokushoho/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: true
 ---
 
 # 特定商取引法に基づく表記

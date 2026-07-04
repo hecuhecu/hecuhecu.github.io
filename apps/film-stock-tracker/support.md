@@ -2,7 +2,7 @@
 layout: legal
 title: サポート — フィルム在庫管理 - フィルムストック
 permalink: /apps/film-stock-tracker/support/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: true
 ---
 
 # フィルム在庫管理 - フィルムストック サポート

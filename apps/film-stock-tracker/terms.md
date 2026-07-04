@@ -2,7 +2,7 @@
 layout: legal
 title: 利用規約 — フィルム在庫管理 - フィルムストック
 permalink: /apps/film-stock-tracker/terms/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: true
 ---
 
 # 利用規約
