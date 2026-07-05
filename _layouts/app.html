@@ -12,7 +12,7 @@ layout: default
   <footer class="app-footer-links">
     <a href="{{ '/apps/' | append: page.slug | append: '/privacy/' | relative_url }}">プライバシーポリシー</a>
     <a href="{{ '/apps/' | append: page.slug | append: '/terms/' | relative_url }}">利用規約</a>
-    <a href="{{ '/apps/' | append: page.slug | append: '/tokushoho/' | relative_url }}">特定商取引法</a>
+    {% if page.tokushoho != false %}<a href="{{ '/apps/' | append: page.slug | append: '/tokushoho/' | relative_url }}">特定商取引法</a>{% endif %}
     <a href="{{ '/apps/' | append: page.slug | append: '/support/' | relative_url }}">サポート</a>
   </footer>
 </article>
