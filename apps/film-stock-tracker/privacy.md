@@ -76,7 +76,7 @@ RevenueCat のプライバシーポリシーは以下をご確認ください:
 本ポリシーに関するお問い合わせは、サポートページよりご連絡ください。
 
 - サポート: [https://hecuhecu.github.io/apps/film-stock-tracker/support/](/apps/film-stock-tracker/support/)
-- メール: [hecunyuji5@gmail.com](mailto:hecunyuji5@gmail.com)
+- メール: [hecuhecu5@gmail.com](mailto:hecuhecu5@gmail.com)
 
 ## 9. ポリシーの変更
 

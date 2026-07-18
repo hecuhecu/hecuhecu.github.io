@@ -21,7 +21,7 @@ hecuhecu
 
 ## 連絡先
 
-hecunyuji5@gmail.com
+hecuhecu5@gmail.com
 
 ※ お問い合わせは原則メールにてお願いいたします。
 

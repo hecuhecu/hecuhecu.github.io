@@ -11,7 +11,7 @@ published_app: false  # リリース時に true へ。false の間は noindex
 
 不具合報告、機能要望、その他お問い合わせは以下よりお願いします。
 
-- メール: [hecunyuji5@gmail.com](mailto:hecunyuji5@gmail.com)
+- メール: [hecuhecu5@gmail.com](mailto:hecuhecu5@gmail.com)
 - 通常 3 営業日以内に返信します
 
 問い合わせの際は以下の情報を含めていただけるとスムーズです:

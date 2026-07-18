@@ -82,7 +82,7 @@ Google による広告目的でのデータ利用については、[https://poli
 本ポリシーに関するお問い合わせは、サポートページよりご連絡ください。
 
 - サポート: [https://hecuhecu.github.io/apps/photo-exif-cleaner/support/](/apps/photo-exif-cleaner/support/)
-- メール: [hecunyuji5@gmail.com](mailto:hecunyuji5@gmail.com)
+- メール: [hecuhecu5@gmail.com](mailto:hecuhecu5@gmail.com)
 
 ## 11. ポリシーの変更
 

@@ -7,7 +7,7 @@ published_app: false  # リリース時に true へ。false の間は noindex
 
 # プライバシーポリシー
 
-最終更新日: 2026 年 7 月 12 日
+最終更新日: 2026 年 7 月 18 日
 
 hecuhecu（以下「当方」）は、モバイルアプリケーション「Reef Tank Log」（以下「本アプリ」）におけるユーザーのプライバシーを尊重し、個人情報の保護に努めます。本ポリシーは、本アプリにおける個人情報の取扱いについて説明するものです。
 
@@ -71,7 +71,7 @@ RevenueCat のプライバシーポリシーは以下をご確認ください:
 本ポリシーに関するお問い合わせは、サポートページよりご連絡ください。
 
 - サポート: [https://hecuhecu.github.io/apps/reef-tank-log/support/](/apps/reef-tank-log/support/)
-- メール: [hecunyuji5@gmail.com](mailto:hecunyuji5@gmail.com)
+- メール: [hecuhecu5@gmail.com](mailto:hecuhecu5@gmail.com)
 
 ## 9. ポリシーの変更
 
