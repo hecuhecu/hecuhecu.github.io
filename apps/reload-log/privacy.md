@@ -36,7 +36,9 @@ We do not disclose information to third parties except as required by law.
 
 ## 4. Third-Party Services
 
-The App uses the following third-party service for purchase processing. Please review its privacy policy.
+The App uses the following third-party services. These services may collect certain information. Please review each service's privacy policy.
+
+### Purchases — RevenueCat
 
 The App uses "RevenueCat," provided by RevenueCat, Inc., to process purchases. To handle purchase receipts obtained from the App Store, the following information is sent to RevenueCat's servers:
 
@@ -47,10 +49,25 @@ The App uses "RevenueCat," provided by RevenueCat, Inc., to process purchases. T
 RevenueCat's Privacy Policy:
 [https://www.revenuecat.com/privacy/](https://www.revenuecat.com/privacy/)
 
+### Payments — Apple
+
 The App uses Apple (App Store / StoreKit) to process payments.
 [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
 
-The App does not use advertising, analytics, or crash-reporting services, and it does not track you across apps or websites.
+### Advertising — Google AdMob
+
+The free version of the App displays advertisements through Google AdMob, provided by Google LLC. To serve and measure ads, AdMob may collect and process:
+
+- Device and advertising identifiers (such as IDFA)
+- Approximate, coarse information such as device type and general region
+- Ad interaction and performance data
+
+This information is used to deliver ads, limit repetitive ads, and measure ad performance. On iOS, the App requests your permission through Apple's App Tracking Transparency framework before any tracking identifier is used for personalized ads. If you do not grant permission, only non-personalized ads are shown. In the EEA and UK, a consent form is presented in accordance with applicable requirements.
+
+Google's Privacy Policy: [https://policies.google.com/privacy](https://policies.google.com/privacy)
+How Google uses information from sites or apps that use its services: [https://policies.google.com/technologies/partner-sites](https://policies.google.com/technologies/partner-sites)
+
+**Advertising is not shown to users with an active Premium purchase.** The App uses no other analytics or crash-reporting services.
 
 ## 5. Safety Feature: Charge-Range Alerts
 

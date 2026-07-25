@@ -32,7 +32,7 @@ A. Only to attach photos — such as target groups or component lot labels — t
 A. No. Reload Log never recommends or suggests a charge weight and provides no load data of its own. It only compares a load against a maximum value **that you enter yourself** from published manufacturer data, and warns you if your recorded charge exceeds it. It is a record-keeping tool, not a load manual. Always follow current published data from your component manufacturers.
 
 **Q. What's included for free?**
-A. Load recipe management, range session records (grouping/MOA, chronograph velocity, ES/SD), component lot tracking, inventory, and cost calculation are available for free. The node visualization (charge vs. velocity vs. group-size chart) and unlimited recipes/sessions are unlocked with Premium.
+A. Load recipe management, range session records (grouping/MOA, chronograph velocity, ES/SD), component lot tracking, inventory, and cost calculation are available for free. The node visualization (charge vs. velocity vs. group-size chart), unlimited recipes/sessions, and an ad-free experience are unlocked with Premium.
 
 **Q. What are the Premium options?**
 A. A one-time Lifetime purchase ($49.99), and auto-renewing subscriptions (Monthly $2.99 / Yearly $18.99). The Yearly plan includes a 7-day free trial.

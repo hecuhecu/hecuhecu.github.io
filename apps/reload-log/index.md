@@ -26,7 +26,7 @@ Reload Log is a dedicated ledger for handloaders and precision-rifle shooters. L
 
 ## Privacy
 
-All of your records and photos are stored only on your device. Reload Log uses no advertising and no analytics, and never sends your data to a server.
+All of your records and photos are stored only on your device and are never sent to a server. The free version shows ads through Google AdMob; ads are removed with Premium. Reload Log uses no other analytics.
 
 ## Links
 

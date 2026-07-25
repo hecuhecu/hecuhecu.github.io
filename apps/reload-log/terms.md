@@ -53,7 +53,7 @@ We may suspend or interrupt all or part of the App without prior notice if:
 
 ## 7. Paid Services
 
-1. The App offers the following paid plans, which unlock the node visualization (charge vs. velocity vs. group-size chart) and unlimited recipes and range sessions:
+1. The App offers the following paid plans, which unlock the node visualization (charge vs. velocity vs. group-size chart), unlimited recipes and range sessions, and an ad-free experience:
    - **Lifetime**: a one-time purchase for continued access to the paid features ($49.99). No auto-renewal.
    - **Monthly**: an auto-renewing subscription ($2.99 / month)
    - **Yearly**: an auto-renewing subscription ($18.99 / year, with a 7-day free trial for first-time subscribers)
