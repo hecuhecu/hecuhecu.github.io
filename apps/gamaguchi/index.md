@@ -2,7 +2,7 @@
 layout: app
 title: がまぐち
 permalink: /apps/gamaguchi/
-published_app: true   # リリース済み
+published_app: true  # 審査提出時に true へ。false の間は noindex
 slug: gamaguchi
 app_name: がまぐち
 tagline: 我慢するたびお金が貯まる節約アプリ

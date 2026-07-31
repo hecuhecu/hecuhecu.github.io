@@ -2,7 +2,7 @@
 layout: legal
 title: プライバシーポリシー — 推しプロフメーカー
 permalink: /apps/oshi-profile-maker/privacy/
-published_app: true  # 公開済み(2026-07-02 リリース準備)
+published_app: true  # 審査提出時に true へ。false の間は noindex
 ---
 
 # プライバシーポリシー

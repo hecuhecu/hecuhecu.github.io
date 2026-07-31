@@ -2,7 +2,7 @@
 layout: legal
 title: 利用規約 — カラーピッカー Color Grab
 permalink: /apps/color-grab/terms/
-published_app: true   # リリース済み
+published_app: true  # 審査提出時に true へ。false の間は noindex
 ---
 
 # 利用規約

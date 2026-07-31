@@ -2,7 +2,7 @@
 layout: legal
 title: サポート — ツボ位置図解 - ツボ押しナビ
 permalink: /apps/acupressure-navi/support/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: false  # 審査提出時に true へ。false の間は noindex
 ---
 
 # ツボ位置図解 - ツボ押しナビ サポート

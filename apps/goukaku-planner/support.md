@@ -2,7 +2,7 @@
 layout: legal
 title: サポート — 合格プランナー
 permalink: /apps/goukaku-planner/support/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: false  # 審査提出時に true へ。false の間は noindex
 ---
 
 # 合格プランナー サポート

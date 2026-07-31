@@ -2,7 +2,7 @@
 layout: legal
 title: プライバシーポリシー — ウイスキー手帳PRO
 permalink: /apps/whisky-log/privacy/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: true  # 審査提出時に true へ。false の間は noindex
 ---
 
 # プライバシーポリシー

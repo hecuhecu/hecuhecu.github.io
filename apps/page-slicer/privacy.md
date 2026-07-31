@@ -2,7 +2,7 @@
 layout: legal
 title: プライバシーポリシー — 長尺画像分割
 permalink: /apps/page-slicer/privacy/
-published_app: true  # リリース時に true へ。false の間は noindex
+published_app: true  # 審査提出時に true へ。false の間は noindex
 ---
 
 # プライバシーポリシー

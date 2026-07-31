@@ -2,7 +2,7 @@
 layout: legal
 title: 利用規約 — HEIC変換
 permalink: /apps/heic-converter/terms/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: true  # 審査提出時に true へ。false の間は noindex
 ---
 
 # 利用規約

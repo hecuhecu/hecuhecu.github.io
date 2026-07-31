@@ -2,7 +2,7 @@
 layout: legal
 title: プライバシーポリシー — 年表メーカー
 permalink: /apps/timeline-maker/privacy/
-published_app: true  # リリース時に true へ。false の間は noindex
+published_app: true  # 審査提出時に true へ。false の間は noindex
 ---
 
 # プライバシーポリシー

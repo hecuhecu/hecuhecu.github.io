@@ -2,7 +2,7 @@
 layout: app
 title: フィルム在庫管理 - フィルムストック
 permalink: /apps/film-stock-tracker/
-published_app: true   # リリース済み
+published_app: true  # 審査提出時に true へ。false の間は noindex
 slug: film-stock-tracker
 app_name: フィルム在庫管理 - フィルムストック
 tagline: 冷蔵庫のフィルム、期限も装填先も一目

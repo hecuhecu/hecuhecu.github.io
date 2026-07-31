@@ -2,7 +2,7 @@
 layout: app
 title: ココイコ！
 permalink: /apps/kokoiko/
-published_app: true   # リリース済み
+published_app: true  # 審査提出時に true へ。false の間は noindex
 slug: kokoiko
 app_name: ココイコ！
 tagline: みんなでスポットを共有するマップアプリ

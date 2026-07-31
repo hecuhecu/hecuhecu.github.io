@@ -2,7 +2,7 @@
 layout: legal
 title: 利用規約 — Quilt Tracker
 permalink: /apps/quilt-tracker/terms/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: true  # 審査提出時に true へ。false の間は noindex
 ---
 
 # 利用規約

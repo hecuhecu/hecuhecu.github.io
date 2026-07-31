@@ -2,7 +2,7 @@
 layout: legal
 title: 特定商取引法に基づく表記 — 角度計 - Angle Meter
 permalink: /apps/angle-meter/tokushoho/
-published_app: true  # リリース時に true へ。false の間は noindex
+published_app: true  # 審査提出時に true へ。false の間は noindex
 ---
 
 # 特定商取引法に基づく表記

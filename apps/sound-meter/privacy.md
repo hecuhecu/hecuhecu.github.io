@@ -2,7 +2,7 @@
 layout: legal
 title: プライバシーポリシー — 騒音計
 permalink: /apps/sound-meter/privacy/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: false  # 審査提出時に true へ。false の間は noindex
 ---
 
 # プライバシーポリシー

@@ -2,7 +2,7 @@
 layout: legal
 title: プライバシーポリシー — 立ち食いログ
 permalink: /apps/ekisoba-log/privacy/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: false  # 審査提出時に true へ。false の間は noindex
 ---
 
 # 立ち食いログ プライバシーポリシー

@@ -2,7 +2,7 @@
 layout: legal
 title: サポート — 推しプロフメーカー
 permalink: /apps/oshi-profile-maker/support/
-published_app: true  # 公開済み(2026-07-02 リリース準備)
+published_app: true  # 審査提出時に true へ。false の間は noindex
 ---
 
 # 推しプロフメーカー サポート

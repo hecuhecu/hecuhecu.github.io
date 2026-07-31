@@ -2,7 +2,7 @@
 layout: legal
 title: プライバシーポリシー — カラーピッカー Color Grab
 permalink: /apps/color-grab/privacy/
-published_app: true   # リリース済み
+published_app: true  # 審査提出時に true へ。false の間は noindex
 ---
 
 # プライバシーポリシー

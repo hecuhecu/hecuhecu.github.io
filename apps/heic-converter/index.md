@@ -2,7 +2,7 @@
 layout: app
 title: HEIC変換
 permalink: /apps/heic-converter/
-published_app: false  # リリース時に true へ
+published_app: true  # 審査提出時に true へ。false の間は noindex
 slug: heic-converter
 app_name: HEIC変換
 tagline: HEIC写真をJPG/PNGにまとめて一括変換。全部この端末の中で完結

@@ -2,7 +2,7 @@
 layout: legal
 title: 利用規約 — Reef Tank Log
 permalink: /apps/reef-tank-log/terms/
-published_app: true  # リリース時に true へ。false の間は noindex
+published_app: true  # 審査提出時に true へ。false の間は noindex
 ---
 
 # 利用規約

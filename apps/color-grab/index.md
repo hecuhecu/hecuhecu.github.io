@@ -2,7 +2,7 @@
 layout: app
 title: カラーピッカー - Color Grab
 permalink: /apps/color-grab/
-published_app: true   # リリース済み
+published_app: true  # 審査提出時に true へ。false の間は noindex
 slug: color-grab
 app_name: カラーピッカー - Color Grab
 tagline: カメラをかざすだけで、目の前の色を採取

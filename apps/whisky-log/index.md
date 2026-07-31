@@ -2,7 +2,7 @@
 layout: app
 title: ウイスキー手帳PRO - 記録&テイスティングノート
 permalink: /apps/whisky-log/
-published_app: false  # リリース時に true へ
+published_app: true  # 審査提出時に true へ。false の間は noindex
 slug: whisky-log
 app_name: ウイスキー手帳PRO - 記録&テイスティングノート
 tagline: ボトル棚とコレクション資産を一目で管理できる収集家アプリ

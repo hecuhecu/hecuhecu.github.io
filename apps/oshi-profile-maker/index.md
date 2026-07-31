@@ -2,7 +2,7 @@
 layout: app
 title: 推しプロフ - 推し活自己紹介カードメーカー
 permalink: /apps/oshi-profile-maker/
-published_app: true   # リリース済み
+published_app: true  # 審査提出時に true へ。false の間は noindex
 slug: oshi-profile-maker
 app_name: 推しプロフ - 推し活自己紹介カードメーカー
 tagline: 開いて埋めるだけ、推し活の自己紹介カードを1秒でシェア

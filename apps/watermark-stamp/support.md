@@ -2,7 +2,7 @@
 layout: legal
 title: サポート — 透かしスタンプ
 permalink: /apps/watermark-stamp/support/
-published_app: true  # リリース時に true へ。false の間は noindex
+published_app: true  # 審査提出時に true へ。false の間は noindex
 ---
 
 # 透かしスタンプ サポート

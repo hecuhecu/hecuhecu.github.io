@@ -2,7 +2,7 @@
 layout: legal
 title: 特定商取引法に基づく表記 — 騒音計
 permalink: /apps/sound-meter/tokushoho/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: false  # 審査提出時に true へ。false の間は noindex
 ---
 
 # 特定商取引法に基づく表記

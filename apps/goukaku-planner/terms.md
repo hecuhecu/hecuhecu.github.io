@@ -2,7 +2,7 @@
 layout: legal
 title: 利用規約 — 合格プランナー
 permalink: /apps/goukaku-planner/terms/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: false  # 審査提出時に true へ。false の間は noindex
 ---
 
 # 利用規約

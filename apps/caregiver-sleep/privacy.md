@@ -2,7 +2,7 @@
 layout: legal
 title: プライバシーポリシー — 介護者の睡眠ログ
 permalink: /apps/caregiver-sleep/privacy/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: false  # 審査提出時に true へ。false の間は noindex
 ---
 
 # 介護者の睡眠ログ プライバシーポリシー

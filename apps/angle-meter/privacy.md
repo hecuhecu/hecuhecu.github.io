@@ -2,7 +2,7 @@
 layout: legal
 title: プライバシーポリシー — 角度計 - Angle Meter
 permalink: /apps/angle-meter/privacy/
-published_app: true  # リリース時に true へ。false の間は noindex
+published_app: true  # 審査提出時に true へ。false の間は noindex
 ---
 
 # プライバシーポリシー

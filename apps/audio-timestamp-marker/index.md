@@ -2,7 +2,7 @@
 layout: app
 title: 音声タイムスタンプ - マーカー打ち
 permalink: /apps/audio-timestamp-marker/
-published_app: true   # リリース済み
+published_app: true  # 審査提出時に true へ。false の間は noindex
 slug: audio-timestamp-marker
 app_name: 音声タイムスタンプ - マーカー打ち
 tagline: 波形を見ながらワンタップでマーカー、あとから一瞬で聞き直せる

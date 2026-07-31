@@ -2,7 +2,7 @@
 layout: legal
 title: プライバシーポリシー — Quilt Tracker
 permalink: /apps/quilt-tracker/privacy/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: true  # 審査提出時に true へ。false の間は noindex
 ---
 
 # プライバシーポリシー

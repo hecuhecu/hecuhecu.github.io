@@ -2,7 +2,7 @@
 layout: app
 title: 合格プランナー
 permalink: /apps/goukaku-planner/
-published_app: false  # リリース時に true へ
+published_app: false  # 審査提出時に true へ。false の間は noindex
 slug: goukaku-planner
 app_name: 合格プランナー (Goukaku Planner)
 tagline: 試験日から逆算して今日のノルマと合格までの距離が見える学習計画アプリ

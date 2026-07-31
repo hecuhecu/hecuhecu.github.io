@@ -2,7 +2,7 @@
 layout: app
 title: TODOタイマー
 permalink: /apps/todo-timer/
-published_app: true   # リリース済み
+published_app: true  # 審査提出時に true へ。false の間は noindex
 slug: todo-timer
 app_name: TODOタイマー
 tagline: やることを決めて、集中する

@@ -2,7 +2,7 @@
 layout: legal
 title: サポート — PDFページ整理
 permalink: /apps/pdf-page-kit/support/
-published_app: true  # リリース時に true へ。false の間は noindex
+published_app: true  # 審査提出時に true へ。false の間は noindex
 ---
 
 # PDFページ整理 サポート

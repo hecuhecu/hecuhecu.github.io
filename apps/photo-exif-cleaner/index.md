@@ -2,7 +2,7 @@
 layout: app
 title: 位置情報クリーナー - EXIF削除
 permalink: /apps/photo-exif-cleaner/
-published_app: true   # リリース済み
+published_app: true  # 審査提出時に true へ。false の間は noindex
 slug: photo-exif-cleaner
 app_name: 位置情報クリーナー - EXIF削除
 tagline: 共有する前に、写真の位置情報を1タップで削除

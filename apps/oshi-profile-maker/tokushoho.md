@@ -2,7 +2,7 @@
 layout: legal
 title: 特定商取引法に基づく表記 — 推しプロフメーカー
 permalink: /apps/oshi-profile-maker/tokushoho/
-published_app: true  # 公開済み(2026-07-02 リリース準備)
+published_app: true  # 審査提出時に true へ。false の間は noindex
 ---
 
 # 特定商取引法に基づく表記
