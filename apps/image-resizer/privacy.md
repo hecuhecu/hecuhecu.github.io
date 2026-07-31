@@ -2,7 +2,7 @@
 layout: legal
 title: プライバシーポリシー — 画像リサイズ
 permalink: /apps/image-resizer/privacy/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: true  # リリース時に true へ。false の間は noindex
 ---
 
 # プライバシーポリシー

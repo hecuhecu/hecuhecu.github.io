@@ -2,7 +2,7 @@
 layout: legal
 title: サポート — Reef Tank Log
 permalink: /apps/reef-tank-log/support/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: true  # リリース時に true へ。false の間は noindex
 ---
 
 # Reef Tank Log サポート

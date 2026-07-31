@@ -2,7 +2,7 @@
 layout: legal
 title: サポート — 年表メーカー
 permalink: /apps/timeline-maker/support/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: true  # リリース時に true へ。false の間は noindex
 ---
 
 # 年表メーカー サポート

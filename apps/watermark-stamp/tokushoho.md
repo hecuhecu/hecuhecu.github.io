@@ -2,7 +2,7 @@
 layout: legal
 title: 特定商取引法に基づく表記 — 透かしスタンプ
 permalink: /apps/watermark-stamp/tokushoho/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: true  # リリース時に true へ。false の間は noindex
 ---
 
 # 特定商取引法に基づく表記

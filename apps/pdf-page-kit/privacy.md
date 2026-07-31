@@ -2,7 +2,7 @@
 layout: legal
 title: プライバシーポリシー — PDFページ整理
 permalink: /apps/pdf-page-kit/privacy/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: true  # リリース時に true へ。false の間は noindex
 ---
 
 # プライバシーポリシー

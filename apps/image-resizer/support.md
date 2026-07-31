@@ -2,7 +2,7 @@
 layout: legal
 title: サポート — 画像リサイズ
 permalink: /apps/image-resizer/support/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: true  # リリース時に true へ。false の間は noindex
 ---
 
 # 画像リサイズ サポート

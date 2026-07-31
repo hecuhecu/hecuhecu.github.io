@@ -2,7 +2,7 @@
 layout: app
 title: 画像リサイズ
 permalink: /apps/image-resizer/
-published_app: false  # リリース時に true へ
+published_app: true  # リリース時に true へ
 slug: image-resizer
 app_name: 画像リサイズ
 tagline: 用途を選ぶだけ・容量を指定するだけ。数値入力なしで写真をリサイズ・圧縮

@@ -2,7 +2,7 @@
 layout: app
 title: Reef Tank Log
 permalink: /apps/reef-tank-log/
-published_app: false  # リリース時に true へ
+published_app: true  # リリース時に true へ
 slug: reef-tank-log
 app_name: Reef Tank Log
 tagline: 複数のリーフタンクを横断管理できる水質パラメータ記録アプリ

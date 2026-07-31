@@ -2,7 +2,7 @@
 layout: legal
 title: 利用規約 — 画像リサイズ
 permalink: /apps/image-resizer/terms/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: true  # リリース時に true へ。false の間は noindex
 ---
 
 # 利用規約
