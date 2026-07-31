@@ -2,7 +2,7 @@
 layout: legal
 title: サポート — PDF圧縮
 permalink: /apps/pdf-compress/support/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: true
 ---
 
 # PDF圧縮 サポート

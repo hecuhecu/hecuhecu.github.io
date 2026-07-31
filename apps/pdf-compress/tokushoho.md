@@ -2,7 +2,7 @@
 layout: legal
 title: 特定商取引法に基づく表記 — PDF圧縮
 permalink: /apps/pdf-compress/tokushoho/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: true
 ---
 
 # 特定商取引法に基づく表記

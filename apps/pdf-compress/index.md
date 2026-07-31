@@ -2,12 +2,12 @@
 layout: app
 title: PDF圧縮
 permalink: /apps/pdf-compress/
-published_app: false  # リリース時に true へ
+published_app: true
 slug: pdf-compress
 app_name: PDF圧縮
 tagline: 重い PDF を、メール添付できるサイズに。圧縮はぜんぶこの端末の中で完結します
 icon: /apps/pdf-compress/icon.png
-app_store_url: ""  # リリース時に設定
+app_store_url: "https://apps.apple.com/jp/app/id6795783274"
 ---
 
 ## 「サイズが大きすぎます」で止まらない

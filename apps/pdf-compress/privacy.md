@@ -2,7 +2,7 @@
 layout: legal
 title: プライバシーポリシー — PDF圧縮
 permalink: /apps/pdf-compress/privacy/
-published_app: false  # リリース時に true へ。false の間は noindex
+published_app: true
 ---
 
 # プライバシーポリシー
