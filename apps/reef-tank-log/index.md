@@ -4,10 +4,11 @@ title: Reef Tank Log
 permalink: /apps/reef-tank-log/
 published_app: true  # 審査提出時に true へ。false の間は noindex
 slug: reef-tank-log
-app_name: Reef Tank Log
+app_name: サンゴ水槽の水質記録 - リーフタンクログ
 tagline: 複数のリーフタンクを横断管理できる水質パラメータ記録アプリ
 icon: /apps/reef-tank-log/icon.png
-app_store_url: ""  # リリース時に設定
+app_store_url: "https://apps.apple.com/jp/app/id6790111056"
+live: true
 ---
 
 ## 複数のリーフタンクを、ひとつのアプリで

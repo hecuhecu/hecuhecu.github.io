@@ -7,7 +7,8 @@ slug: photo-exif-cleaner
 app_name: 位置情報クリーナー - EXIF削除
 tagline: 共有する前に、写真の位置情報を1タップで削除
 icon: /apps/photo-exif-cleaner/icon.png
-app_store_url: https://apps.apple.com/app/id6786606535
+app_store_url: "https://apps.apple.com/jp/app/id6786606535"
+live: true
 ---
 
 ## 写真の位置情報、消してから送る

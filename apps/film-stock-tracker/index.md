@@ -7,7 +7,8 @@ slug: film-stock-tracker
 app_name: フィルム在庫管理 - フィルムストック
 tagline: 冷蔵庫のフィルム、期限も装填先も一目
 icon: /apps/film-stock-tracker/icon.png
-app_store_url: https://apps.apple.com/app/id6787392053
+app_store_url: "https://apps.apple.com/jp/app/id6787392053"
+live: true
 ---
 
 ## フィルムの在庫・装填・現像をひとつのアプリで

@@ -4,10 +4,11 @@ title: ココイコ！
 permalink: /apps/kokoiko/
 published_app: true  # 審査提出時に true へ。false の間は noindex
 slug: kokoiko
-app_name: ココイコ！
+app_name: ココイコ！- カップルの行きたい場所マップ
 tagline: みんなでスポットを共有するマップアプリ
 icon: /icon_cocoico.png
-app_store_url: https://apps.apple.com/app/id6759416281
+app_store_url: "https://apps.apple.com/jp/app/id6759416281"
+live: true
 ---
 
 ## 「ここ行きたい！」をふたりの地図に

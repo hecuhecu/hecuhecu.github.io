@@ -4,11 +4,12 @@ title: がまぐち
 permalink: /apps/gamaguchi/
 published_app: true  # 審査提出時に true へ。false の間は noindex
 slug: gamaguchi
-app_name: がまぐち
+app_name: がまぐち - 衝動買いを我慢して貯める節約
 tagline: 我慢するたびお金が貯まる節約アプリ
 icon: /icon_gamaguchi.png
-app_store_url: https://apps.apple.com/app/id6761958213
+app_store_url: "https://apps.apple.com/jp/app/id6761958213"
 tokushoho: false
+live: true
 ---
 
 ## 衝動買いを我慢したら、記録する

@@ -4,10 +4,11 @@ title: カラーピッカー - Color Grab
 permalink: /apps/color-grab/
 published_app: true  # 審査提出時に true へ。false の間は noindex
 slug: color-grab
-app_name: カラーピッカー - Color Grab
+app_name: カラーピッカー 色をHEXで採取 - Grab
 tagline: カメラをかざすだけで、目の前の色を採取
 icon: /apps/color-grab/icon.png
-app_store_url: https://apps.apple.com/app/id6784841771
+app_store_url: "https://apps.apple.com/jp/app/id6784841771"
+live: true
 ---
 
 ## 目の前の色を、そのままパレットに

@@ -7,7 +7,8 @@ slug: oshi-profile-maker
 app_name: 推しプロフ - 推し活自己紹介カードメーカー
 tagline: 開いて埋めるだけ、推し活の自己紹介カードを1秒でシェア
 icon: /apps/oshi-profile-maker/icon.png
-app_store_url: https://apps.apple.com/app/id6786216745
+app_store_url: "https://apps.apple.com/jp/app/id6786216745"
+live: true
 ---
 
 ## 推し活の自己紹介カードを、テンプレで秒速作成

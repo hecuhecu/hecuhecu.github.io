@@ -4,10 +4,11 @@ title: 画像リサイズ
 permalink: /apps/image-resizer/
 published_app: true  # 審査提出時に true へ。false の間は noindex
 slug: image-resizer
-app_name: 画像リサイズ
+app_name: 画像リサイズ:容量指定で写真を圧縮サイズ変更
 tagline: 用途を選ぶだけ・容量を指定するだけ。数値入力なしで写真をリサイズ・圧縮
 icon: /apps/image-resizer/icon.png
-app_store_url: ""  # リリース時に設定
+app_store_url: "https://apps.apple.com/jp/app/id6795289913"
+live: true
 ---
 
 ## 「Instagram は何 px？」を、もう調べなくていい

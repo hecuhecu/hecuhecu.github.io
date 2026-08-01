@@ -1,3 +1,8 @@
+---
+layout: null
+title: hecuhecu - Apps
+permalink: /
+---
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -173,53 +178,19 @@
   </div>
 
   <div class="apps">
-    <a class="app-card" href="https://apps.apple.com/app/id6784841771" target="_blank">
+    {%- assign live_apps = site.pages | where: "layout", "app" | where: "live", true | sort: "app_name" %}
+    {%- for app in live_apps %}
+    <a class="app-card" href="{{ app.app_store_url }}" target="_blank" rel="noopener">
       <div class="app-icon">
-        <img src="/apps/color-grab/icon.png" alt="カラーピッカー 色をHEXで採取 - Grab">
+        <img src="{{ app.icon | relative_url }}" alt="{{ app.app_name }}">
       </div>
       <div class="app-info">
-        <div class="app-name">カラーピッカー 色をHEXで採取 - Grab</div>
-        <div class="app-tagline">カメラをかざすだけで、目の前の色を採取</div>
-        <span class="app-badge badge-teal">カメラ × カラーコード</span>
+        <div class="app-name">{{ app.app_name }}</div>
+        <div class="app-tagline">{{ app.tagline }}</div>
       </div>
       <span class="chevron">›</span>
     </a>
-
-    <a class="app-card" href="https://apps.apple.com/app/id6761958213" target="_blank">
-      <div class="app-icon">
-        <img src="icon_gamaguchi.png" alt="がまぐち">
-      </div>
-      <div class="app-info">
-        <div class="app-name">がまぐち</div>
-        <div class="app-tagline">我慢するたびお金が貯まる節約アプリ</div>
-        <span class="app-badge badge-green">節約 × キャラクター</span>
-      </div>
-      <span class="chevron">›</span>
-    </a>
-
-    <a class="app-card" href="https://apps.apple.com/app/id1613885003" target="_blank">
-      <div class="app-icon">
-        <img src="icon_todo.png" alt="TODOタイマー">
-      </div>
-      <div class="app-info">
-        <div class="app-name">TODOタイマー</div>
-        <div class="app-tagline">やることを決めて、集中する</div>
-        <span class="app-badge badge-blue">タスク × タイマー</span>
-      </div>
-      <span class="chevron">›</span>
-    </a>
-
-    <a class="app-card" href="https://apps.apple.com/app/id6759416281" target="_blank">
-      <div class="app-icon">
-        <img src="icon_cocoico.png" alt="ココイコ！">
-      </div>
-      <div class="app-info">
-        <div class="app-name">ココイコ！</div>
-        <div class="app-tagline">みんなでスポットを共有するマップアプリ</div>
-        <span class="app-badge badge-orange">マップ × 共有</span>
-      </div>
-      <span class="chevron">›</span>
-    </a>
+    {%- endfor %}
   </div>
 
   <div class="footer">

@@ -4,10 +4,11 @@ title: 音声タイムスタンプ - マーカー打ち
 permalink: /apps/audio-timestamp-marker/
 published_app: true  # 審査提出時に true へ。false の間は noindex
 slug: audio-timestamp-marker
-app_name: 音声タイムスタンプ - マーカー打ち
+app_name: 音声タイムスタンプ - テープ起こし用マーカー
 tagline: 波形を見ながらワンタップでマーカー、あとから一瞬で聞き直せる
 icon: /apps/audio-timestamp-marker/icon.png
-app_store_url: https://apps.apple.com/app/id6787578003
+app_store_url: "https://apps.apple.com/jp/app/id6787572446"
+live: true
 ---
 
 ## 長い録音から「あの発言」をすぐ探せる

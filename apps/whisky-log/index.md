@@ -7,7 +7,7 @@ slug: whisky-log
 app_name: ウイスキー手帳PRO - 記録&テイスティングノート
 tagline: ボトル棚とコレクション資産を一目で管理できる収集家アプリ
 icon: /apps/whisky-log/icon.png
-app_store_url: https://apps.apple.com/app/id6788276049
+app_store_url: ""  # リリース時に設定
 ---
 
 ## あなたのウイスキーコレクションを、資産として記録する
