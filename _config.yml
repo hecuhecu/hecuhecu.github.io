@@ -9,6 +9,12 @@ baseurl: ""
 markdown: kramdown
 permalink: pretty
 
+# Google Search Console のサイト所有権確認ファイル。
+# Jekyll に加工されるとトークンが壊れて確認に失敗するため、そのまま配信する。
+# 確認状態を維持するには削除しないこと。
+include:
+  - googlefef2e77bdbff03cd.html
+
 # 既存の index.html を Jekyll の処理対象から外す（壊さないため）
 exclude:
   - README.md
