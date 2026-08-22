@@ -2,7 +2,7 @@
 layout: app
 title: 具体と抽象
 permalink: /apps/gutai-chusho/
-published_app: false  # 審査提出時に true へ。false の間は noindex
+published_app: true
 slug: gutai-chusho
 app_name: 具体と抽象｜思考力トレーニング
 tagline: 抽象化・言語化・考える力を鍛える大人の思考トレ

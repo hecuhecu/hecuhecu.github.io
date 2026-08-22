@@ -2,7 +2,7 @@
 layout: legal
 title: サポート — 具体と抽象
 permalink: /apps/gutai-chusho/support/
-published_app: false
+published_app: true
 ---
 
 # サポート

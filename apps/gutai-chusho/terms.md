@@ -2,7 +2,7 @@
 layout: legal
 title: 利用規約 — 具体と抽象
 permalink: /apps/gutai-chusho/terms/
-published_app: false
+published_app: true
 ---
 
 # 利用規約

@@ -2,7 +2,7 @@
 layout: legal
 title: 特定商取引法に基づく表記 — 具体と抽象
 permalink: /apps/gutai-chusho/tokushoho/
-published_app: false
+published_app: true
 ---
 
 # 特定商取引法に基づく表記

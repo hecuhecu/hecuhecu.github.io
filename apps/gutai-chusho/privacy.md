@@ -2,7 +2,7 @@
 layout: legal
 title: プライバシーポリシー — 具体と抽象
 permalink: /apps/gutai-chusho/privacy/
-published_app: false
+published_app: true
 ---
 
 # プライバシーポリシー
