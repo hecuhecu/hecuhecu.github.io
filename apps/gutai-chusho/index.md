@@ -1,11 +1,11 @@
 ---
 layout: app
-title: 具体と抽象
+title: 抽象化トレーニング
 permalink: /apps/gutai-chusho/
 published_app: true
 slug: gutai-chusho
-app_name: 具体と抽象｜思考力トレーニング
-tagline: 抽象化・言語化・考える力を鍛える大人の思考トレ
+app_name: 抽象化トレーニング｜思考力を鍛える
+tagline: 具体と抽象を行き来する練習
 icon: /apps/gutai-chusho/icon.png
 app_store_url: ""
 live: false
@@ -13,7 +13,7 @@ live: false
 
 ## 具体と抽象を、行き来する力を鍛える
 
-「具体と抽象」は、身のまわりの出来事を抽象化したり、抽象的な概念を具体に落としたりする力を、1 日 5 分の反復で練習できるトレーニングアプリです。
+「抽象化トレーニング」は、身のまわりの出来事を抽象化したり、抽象的な概念を具体に落としたりする力を、1 日 5 分の反復で練習できるトレーニングアプリです。
 
 ## 主な機能
 

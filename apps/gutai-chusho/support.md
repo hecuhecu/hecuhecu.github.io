@@ -1,13 +1,13 @@
 ---
 layout: legal
-title: サポート — 具体と抽象
+title: サポート — 抽象化トレーニング
 permalink: /apps/gutai-chusho/support/
 published_app: true
 ---
 
 # サポート
 
-「具体と抽象｜思考力トレーニング」に関するお問い合わせは、以下の窓口までお願いいたします。
+「抽象化トレーニング｜思考力を鍛える」に関するお問い合わせは、以下の窓口までお願いいたします。
 
 - メールアドレス: [hecuhecu5@gmail.com](mailto:hecuhecu5@gmail.com)
 

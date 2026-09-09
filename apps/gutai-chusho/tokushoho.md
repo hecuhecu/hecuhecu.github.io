@@ -1,6 +1,6 @@
 ---
 layout: legal
-title: 特定商取引法に基づく表記 — 具体と抽象
+title: 特定商取引法に基づく表記 — 抽象化トレーニング
 permalink: /apps/gutai-chusho/tokushoho/
 published_app: true
 ---
@@ -27,7 +27,7 @@ hecuhecu
 
 ## 販売 URL
 
-App Store の本アプリ「具体と抽象｜思考力トレーニング」配信ページ
+App Store の本アプリ「抽象化トレーニング｜思考力を鍛える」配信ページ
 
 ## 販売価格
 
