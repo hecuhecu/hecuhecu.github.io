@@ -110,7 +110,7 @@ Regarding data transfer destinations, the services above may transfer part of a 
 
 1. Written answers entered by the User in written-response questions, the abstraction game, and Why-type thinking training are sent to an external AI service in order to generate feedback and responses.
 2. No identifying information such as a name or email address is attached when the answer is sent.
-3. The Provider endeavors to select settings with the AI service provider under which the transmitted data is not used to train that provider's models.
+3. The AI service the answers are sent to (Google's Gemini API) may use the transmitted content to improve Google's services and machine learning technologies.
 4. Users should take care not to enter personal information, confidential information, or any information that infringes the rights of a third party into a written answer.
 5. Apart from the features described above, the App does not send User input to any external AI service. The App also does not send the text of a User's written answers to usage analytics (Firebase Analytics).
 
@@ -154,4 +154,4 @@ For inquiries about this Policy, please contact:
 ---
 
 **Effective date**: August 11, 2026
-**Last updated**: August 25, 2026
+**Last updated**: October 3, 2026
