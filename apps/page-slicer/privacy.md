@@ -7,7 +7,7 @@ published_app: true  # 審査提出時に true へ。false の間は noindex
 
 # プライバシーポリシー
 
-最終更新日: 2026 年 6 月 20 日
+最終更新日: 2026 年 10 月 9 日
 
 hecuhecu（以下「当方」）は、モバイルアプリケーション「長尺画像分割」（以下「本アプリ」）におけるユーザーのプライバシーを尊重し、個人情報の保護に努めます。本ポリシーは、本アプリにおける個人情報の取扱いについて説明するものです。
 
@@ -35,7 +35,8 @@ hecuhecu（以下「当方」）は、モバイルアプリケーション「長
 本アプリは、課金処理のために以下の第三者サービスを利用しています。各サービスのプライバシーポリシーをご確認ください。
 
 - **RevenueCat**（課金管理）: [https://www.revenuecat.com/privacy/](https://www.revenuecat.com/privacy/)
-- **Apple（App Store / StoreKit）**（決済処理）: [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
+- **Apple（App Store / StoreKit）**（決済処理・App Store 版）: [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
+- **Google（Google Play 課金）**（決済処理・Google Play 版）: [https://policies.google.com/privacy](https://policies.google.com/privacy)
 
 これらは購入の管理・復元のために匿名の購入識別子を扱いますが、お客様の画像データを取得することはありません。
 
