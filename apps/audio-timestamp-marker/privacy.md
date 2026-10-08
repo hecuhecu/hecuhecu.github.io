@@ -7,7 +7,7 @@ published_app: true
 
 # プライバシーポリシー
 
-最終更新日: 2026 年 7 月 5 日
+最終更新日: 2026 年 10 月 9 日
 
 hecuhecu（以下「当方」）は、モバイルアプリケーション「音声タイムスタンプ・マーカー打ち」（以下「本アプリ」）におけるユーザーのプライバシーを尊重し、個人情報の保護に努めます。本ポリシーは、本アプリにおける個人情報の取扱いについて説明するものです。
 
@@ -32,7 +32,7 @@ hecuhecu（以下「当方」）は、モバイルアプリケーション「音
 
 ## 4. 第三者サービス
 
-本アプリは、課金処理のために RevenueCat, Inc. が提供する「RevenueCat」サービスを利用しています。RevenueCat は App Store から取得した購入レシートを処理するため、以下の情報が RevenueCat のサーバーに送信されます。
+本アプリは、課金処理のために RevenueCat, Inc. が提供する「RevenueCat」サービスを利用しています。RevenueCat は App Store / Google Play から取得した購入レシートを処理するため、以下の情報が RevenueCat のサーバーに送信されます。
 
 - 匿名のユーザーID（個人を特定するものではありません）
 - 購入レシート情報
@@ -40,6 +40,11 @@ hecuhecu（以下「当方」）は、モバイルアプリケーション「音
 
 RevenueCat のプライバシーポリシーは以下をご確認ください:
 [https://www.revenuecat.com/privacy/](https://www.revenuecat.com/privacy/)
+
+決済処理は、App Store 版では Apple（App Store / StoreKit）、Google Play 版では Google（Google Play 課金）が行います。各社のプライバシーポリシーは以下をご確認ください:
+
+- Apple: [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
+- Google: [https://policies.google.com/privacy](https://policies.google.com/privacy)
 
 ## 5. データの保管場所
 
