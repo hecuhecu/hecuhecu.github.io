@@ -75,7 +75,8 @@ App Store / Google Play の本アプリ商品ページに記載
 
 ## 販売開始日
 
-2026 年（予定）
+- App Store 版: 2026 年 6 月
+- Google Play 版: 2026 年 10 月
 
 ---
 
