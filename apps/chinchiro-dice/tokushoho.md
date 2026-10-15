@@ -2,7 +2,7 @@
 layout: legal
 title: 特定商取引法に基づく表記 — チンチロ
 permalink: /apps/chinchiro-dice/tokushoho/
-published_app: false  # 審査提出時に true へ。false の間は noindex
+published_app: true  # 2026-10-15 審査提出
 ---
 
 # 特定商取引法に基づく表記

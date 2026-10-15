@@ -2,7 +2,7 @@
 layout: legal
 title: 利用規約 — チンチロ
 permalink: /apps/chinchiro-dice/terms/
-published_app: false  # 審査提出時に true へ。false の間は noindex
+published_app: true  # 2026-10-15 審査提出
 ---
 
 # 利用規約

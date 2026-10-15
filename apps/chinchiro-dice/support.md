@@ -2,7 +2,7 @@
 layout: legal
 title: サポート — チンチロ
 permalink: /apps/chinchiro-dice/support/
-published_app: false  # 審査提出時に true へ。false の間は noindex
+published_app: true  # 2026-10-15 審査提出
 ---
 
 # チンチロ サポート

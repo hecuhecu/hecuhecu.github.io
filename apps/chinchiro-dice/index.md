@@ -2,7 +2,7 @@
 layout: app
 title: チンチロ
 permalink: /apps/chinchiro-dice/
-published_app: false  # 審査提出時に true へ。false の間は noindex
+published_app: true  # 2026-10-15 審査提出
 slug: chinchiro-dice
 app_name: チンチロ
 tagline: 1台の端末を回して遊ぶ、サイコロ3個の役判定アプリ
