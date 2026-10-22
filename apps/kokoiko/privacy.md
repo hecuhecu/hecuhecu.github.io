@@ -99,6 +99,7 @@ hecuhecu (以下、「当事業者」といいます。) は、当事業者が�
 | Firebase Remote Config | Google LLC (米国) | アプリ設定の配信 | 米国 | [リンク](https://firebase.google.com/support/privacy) |
 | Google Sign-In | Google LLC (米国) | Google アカウントによるサインイン | 米国 | [リンク](https://policies.google.com/privacy) |
 | Google Places API | Google LLC (米国) | 場所候補・住所情報の取得 | 米国 | [リンク](https://policies.google.com/privacy) |
+| Google Maps SDK | Google LLC (米国) | 地図の表示 | 米国 | [リンク](https://policies.google.com/privacy) |
 | Google Mobile Ads (AdMob) | Google LLC (米国) | 広告配信 (無料プラン) | 米国 | [リンク](https://policies.google.com/technologies/ads) |
 | Sign in with Apple | Apple Inc. (米国) | Apple アカウントによるサインイン | 米国 | [リンク](https://www.apple.com/legal/privacy/) |
 | RevenueCat | RevenueCat, Inc. (米国) | サブスクリプションの管理・分析 | 米国 | [リンク](https://www.revenuecat.com/privacy) |
@@ -168,4 +169,4 @@ iOS をご利用のユーザーに対しては、Apple のアプリトラッキ�
 ---
 
 **制定日**: 2026 年 1 月 2 日
-**最終更新日**: 2026 年 5 月 17 日
+**最終更新日**: 2026 年 10 月 22 日
