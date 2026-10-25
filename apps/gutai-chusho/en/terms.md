@@ -58,10 +58,12 @@ A minor who uses the App must obtain the prior consent of a parent or other lega
 
 	| Plan | Length | Price |
 	| --- | --- | --- |
-	| Annual plan | 1 year | $70.00 / year |
-	| Monthly plan | 1 month | $10.00 / month |
+	| Annual plan | 1 year | $88.00 / year |
+	| Monthly plan | 1 month | $12.00 / month |
 
 	Prices shown above are for the United States App Store. In other regions, prices are shown in the local currency on the App Store and may differ.
+
+	These prices apply to new purchases on or after October 26, 2026. Users who subscribed or started a free trial on or before October 25, 2026 continue to renew at the price in effect at that time ($70.00 / year, $10.00 / month in the United States).
 
 2. The annual plan includes a 7-day free trial. The free trial applies only to Users who have not previously used a free trial of the App.
 3. **If auto-renewal is not turned off at least 24 hours before the end of the free trial period, the annual plan price is charged at the end of that period.** Any unused portion of a free trial period is forfeited when the User purchases a subscription.
