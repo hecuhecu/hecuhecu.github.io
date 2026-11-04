@@ -7,7 +7,7 @@ published_app: true  # 2026-10-15 審査提出
 
 # プライバシーポリシー
 
-最終更新日: 2026 年 10 月 15 日
+最終更新日: 2026 年 11 月 5 日
 
 hecuhecu（以下「当方」）は、モバイルアプリケーション「チンチロ」（以下「本アプリ」）におけるユーザーのプライバシーを尊重し、その保護に努めます。本ポリシーは、本アプリにおける情報の取扱いについて説明するものです。
 
@@ -50,7 +50,7 @@ hecuhecu（以下「当方」）は、モバイルアプリケーション「チ
 
 本アプリの無料版では、Google LLC が提供する Google AdMob を通じて広告（アプリ起動時の広告・バナー広告・インタースティシャル広告）を表示します。広告の配信・表示回数の制御・効果測定のため、AdMob は以下の情報を収集・処理することがあります。
 
-- 広告識別子（IDFA）等のデバイス識別子
+- 広告識別子（iOS の IDFA、Android の広告 ID（AAID））等のデバイス識別子
 - 広告データ（広告の表示・操作に関する情報）
 - 本アプリの利用状況（操作）に関する情報
 - デバイスの種類やおおまかな地域といった粗い情報
@@ -66,7 +66,7 @@ hecuhecu（以下「当方」）は、モバイルアプリケーション「チ
 
 ### 課金 — RevenueCat
 
-本アプリは、購入処理の管理に RevenueCat, Inc. が提供する「RevenueCat」を利用しています。App Store から取得した購入レシートを処理するため、以下の情報が RevenueCat のサーバーへ送信されます。
+本アプリは、購入処理の管理に RevenueCat, Inc. が提供する「RevenueCat」を利用しています。App Store / Google Play から取得した購入レシートを処理するため、以下の情報が RevenueCat のサーバーへ送信されます。
 
 - 匿名のユーザー ID（個人を特定するものではありません）
 - 購入レシート情報
@@ -74,10 +74,12 @@ hecuhecu（以下「当方」）は、モバイルアプリケーション「チ
 
 RevenueCat のプライバシーポリシー: [https://www.revenuecat.com/privacy/](https://www.revenuecat.com/privacy/)
 
-### 決済 — Apple
+### 決済 — Apple / Google
 
-本アプリは、決済処理に Apple（App Store / StoreKit）を利用しています。
-[https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
+本アプリの決済処理は、App Store 版では Apple（App Store / StoreKit）、Google Play 版では Google（Google Play 課金）が行います。各社のプライバシーポリシーは以下をご確認ください:
+
+- Apple: [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
+- Google: [https://policies.google.com/privacy](https://policies.google.com/privacy)
 
 本アプリは、上記以外の解析サービス・クラッシュレポートサービスを利用していません。
 
@@ -89,7 +91,7 @@ RevenueCat のプライバシーポリシー: [https://www.revenuecat.com/privac
 
 ユーザーは、本アプリをアンインストールすることでいつでもデータの利用を終了できます。アンインストールにより、端末内に保存されたプレイヤー名や設定も削除されます。
 
-広告のパーソナライズについては、iOS の「設定」→「プライバシーとセキュリティ」→「トラッキング」からいつでも許可を取り消すことができます。
+広告のパーソナライズについては、iOS の「設定」→「プライバシーとセキュリティ」→「トラッキング」からいつでも許可を取り消すことができます。Android では、「設定」→「Google」→「広告」、または「設定」→「プライバシー」→「広告」から広告 ID をリセット・削除できます（表示される項目名は端末や Android のバージョンにより異なります）。
 
 ## 7. 子どものプライバシー
 

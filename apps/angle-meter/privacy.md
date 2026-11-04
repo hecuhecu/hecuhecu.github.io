@@ -7,7 +7,7 @@ published_app: true  # 審査提出時に true へ。false の間は noindex
 
 # プライバシーポリシー
 
-最終更新日: 2026 年 7 月 4 日
+最終更新日: 2026 年 11 月 5 日
 
 hecuhecu（以下「当方」）は、モバイルアプリケーション「角度計 - Angle Meter」（以下「本アプリ」）におけるユーザーのプライバシーを尊重し、個人情報の保護に努めます。本ポリシーは、本アプリにおける個人情報の取扱いについて説明するものです。
 
@@ -29,6 +29,7 @@ hecuhecu（以下「当方」）は、モバイルアプリケーション「角
 - 本アプリの品質向上およびバグ修正
 - 不正利用の防止
 - 課金処理（該当する場合）
+- 広告の表示（無料版）
 
 ## 3. 第三者への提供
 
@@ -36,12 +37,30 @@ hecuhecu（以下「当方」）は、モバイルアプリケーション「角
 
 ## 4. 第三者サービス
 
-本アプリは、課金処理のために以下の第三者サービスを利用しています。各サービスのプライバシーポリシーをご確認ください。
+本アプリは、課金処理および広告表示のために以下の第三者サービスを利用しています。各サービスのプライバシーポリシーをご確認ください。
 
 - **RevenueCat**（課金管理）: [https://www.revenuecat.com/privacy/](https://www.revenuecat.com/privacy/)
-- **Apple（App Store / StoreKit）**（決済処理）: [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
+- **Apple（App Store / StoreKit）**（決済処理・App Store 版）: [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
+- **Google（Google Play 課金）**（決済処理・Google Play 版）: [https://policies.google.com/privacy](https://policies.google.com/privacy)
 
 これらは購入の管理・復元のために匿名の購入識別子を扱いますが、お客様の角度記録データやカメラ映像を取得することはありません。
+
+本アプリの無料版では、Google LLC が提供する「Google AdMob」を通じて広告（バナー広告・アプリ起動時の広告）を表示します。広告の配信・表示回数の制御・効果測定のため、AdMob は以下の情報を収集・処理することがあります。
+
+- 広告識別子（iOS の IDFA、Android の広告 ID（AAID））等のデバイス識別子
+- デバイスの種類やおおまかな地域といった粗い情報
+- 広告の表示・操作に関する情報
+
+iOS では、トラッキング目的の識別子を利用する前に、Apple の App Tracking Transparency（ATT）フレームワークを通じて許可を求めます。許可しない場合は非パーソナライズ広告のみが表示され、本アプリのすべての機能は引き続きご利用いただけます。
+
+Android では、広告 ID は端末の設定からいつでもリセット・削除（オプトアウト）できます。「設定」→「Google」→「広告」、または「設定」→「プライバシー」→「広告」から操作してください（表示される項目名は端末や Android のバージョンにより異なります）。広告 ID を削除した場合も、本アプリのすべての機能は引き続きご利用いただけます。
+
+欧州経済領域（EEA）および英国のユーザーには、適用される規制に従い、Google の User Messaging Platform（UMP）を通じて広告の表示前に同意フォームを表示します。有料プランをご利用中のユーザーには広告を表示しません。
+
+AdMob における情報の取扱いは以下をご確認ください:
+
+- Google のプライバシーポリシー: [https://policies.google.com/privacy](https://policies.google.com/privacy)
+- Google のサービスを使用するサイトやアプリから収集した情報の Google による使用: [https://policies.google.com/technologies/partner-sites](https://policies.google.com/technologies/partner-sites)
 
 ## 5. データの保管場所
 

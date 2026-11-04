@@ -15,8 +15,8 @@ published_app: true  # 審査提出時に true へ。false の間は noindex
 - 通常 3 営業日以内に返信します
 
 問い合わせの際は以下の情報を含めていただけるとスムーズです:
-- 端末モデル（例: iPhone 15 Pro）
-- iOS バージョン
+- 端末モデル（例: iPhone 15 Pro / Pixel 8）
+- iOS / Android のバージョン
 - 本アプリのバージョン（アプリ内「設定」→「このアプリについて」）
 - 発生している症状 / 再現手順
 
@@ -38,11 +38,11 @@ A. カメラや写真からの色の採取、HEX・RGB・HSL・色名の表示�
 A. 一度のお支払いで使える買い切りプラン（¥1,800）をご用意しています。サブスクリプション（自動更新課金）はありません。
 
 **Q. 機種変更したら購入が消えました。**
-A. 設定画面の「購入を復元」から、同一の Apple ID で行った購入を復元できます。
+A. 設定画面の「購入を復元」から、同一の Apple ID（App Store 版）または同一の Google アカウント（Google Play 版）で行った購入を復元できます。
 
 ## 購入について
 
-本アプリの有料プランは買い切り（一括購入）です。自動更新はないため、解約のお手続きは不要です。返金をご希望の場合は、Apple のポリシーに準拠します。Apple のサポートページ（[https://reportaproblem.apple.com/](https://reportaproblem.apple.com/)）よりお手続きください。
+本アプリの有料プランは買い切り（一括購入）です。自動更新はないため、解約のお手続きは不要です。返金をご希望の場合は、各ストアのポリシーに準拠します。App Store 版は Apple のサポートページ（[https://reportaproblem.apple.com/](https://reportaproblem.apple.com/)）、Google Play 版は Google Play ヘルプ（[https://support.google.com/googleplay/answer/2479637](https://support.google.com/googleplay/answer/2479637)）の手順に沿ってお手続きください。
 
 ## データの削除
 
@@ -56,4 +56,4 @@ A. 設定画面の「購入を復元」から、同一の Apple ID で行った�
 
 ---
 
-最終更新日: 2026 年 6 月 27 日
+最終更新日: 2026 年 11 月 5 日
