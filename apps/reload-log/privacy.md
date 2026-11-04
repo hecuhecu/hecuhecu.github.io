@@ -7,7 +7,7 @@ published_app: true
 
 # Privacy Policy
 
-Last updated: July 25, 2026
+Last updated: November 5, 2026
 
 hecuhecu ("we", "us", or "our") respects your privacy and is committed to protecting it. This Privacy Policy explains how information is handled in the mobile application "Reload Log" (the "App").
 
@@ -17,9 +17,9 @@ The App does not collect personally identifiable information.
 
 All data you enter — including load recipes (powder charge, bullet, primer, brass, COAL, etc.), range session results (grouping/MOA, chronograph velocity, ES/SD), component lot records, inventory, and cost calculations — is stored **only on your device** in a local database. We never transmit or store this data on our servers or any external service.
 
-### Camera and Photo Library
+### Photos
 
-The App requests access to your camera and photo library so you can attach photos (such as target groups or component lot labels) to your records. Photos you capture or select are stored **only on your device** for display within the App and are never transmitted externally.
+The App lets you choose photos from your device through the system photo picker so you can attach them (such as target groups or component lot labels) to your records. The App does not use the camera. Photos you select are stored **only on your device** for display within the App and are never transmitted externally.
 
 ## 2. How We Use Information
 
@@ -40,7 +40,7 @@ The App uses the following third-party services. These services may collect cert
 
 ### Purchases — RevenueCat
 
-The App uses "RevenueCat," provided by RevenueCat, Inc., to process purchases. To handle purchase receipts obtained from the App Store, the following information is sent to RevenueCat's servers:
+The App uses "RevenueCat," provided by RevenueCat, Inc., to process purchases. To handle purchase receipts obtained from the App Store or Google Play, the following information is sent to RevenueCat's servers:
 
 - An anonymous user ID (which does not identify you personally)
 - Purchase receipt information
@@ -49,20 +49,22 @@ The App uses "RevenueCat," provided by RevenueCat, Inc., to process purchases. T
 RevenueCat's Privacy Policy:
 [https://www.revenuecat.com/privacy/](https://www.revenuecat.com/privacy/)
 
-### Payments — Apple
+### Payments — Apple / Google
 
-The App uses Apple (App Store / StoreKit) to process payments.
-[https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
+Payments are processed by Apple (App Store / StoreKit) for the App Store version and by Google (Google Play Billing) for the Google Play version.
+
+- Apple: [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
+- Google: [https://policies.google.com/privacy](https://policies.google.com/privacy)
 
 ### Advertising — Google AdMob
 
 The free version of the App displays advertisements through Google AdMob, provided by Google LLC. To serve and measure ads, AdMob may collect and process:
 
-- Device and advertising identifiers (such as IDFA)
+- Device and advertising identifiers (IDFA on iOS, Advertising ID (AAID) on Android)
 - Approximate, coarse information such as device type and general region
 - Ad interaction and performance data
 
-This information is used to deliver ads, limit repetitive ads, and measure ad performance. On iOS, the App requests your permission through Apple's App Tracking Transparency framework before any tracking identifier is used for personalized ads. If you do not grant permission, only non-personalized ads are shown. In the EEA and UK, a consent form is presented in accordance with applicable requirements.
+This information is used to deliver ads, limit repetitive ads, and measure ad performance. On iOS, the App requests your permission through Apple's App Tracking Transparency framework before any tracking identifier is used for personalized ads. If you do not grant permission, only non-personalized ads are shown. On Android, you can reset or delete your Advertising ID at any time in Settings > Google > Ads, or Settings > Privacy > Ads (item names vary by device and Android version). In the EEA and UK, a consent form is presented through Google's User Messaging Platform (UMP) in accordance with applicable requirements.
 
 Google's Privacy Policy: [https://policies.google.com/privacy](https://policies.google.com/privacy)
 How Google uses information from sites or apps that use its services: [https://policies.google.com/technologies/partner-sites](https://policies.google.com/technologies/partner-sites)

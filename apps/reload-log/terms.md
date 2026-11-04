@@ -7,7 +7,7 @@ published_app: true
 
 # Terms of Use
 
-Last updated: July 25, 2026
+Last updated: November 5, 2026
 
 These Terms of Use (the "Terms") govern your use of the mobile application "Reload Log" (the "App") provided by hecuhecu ("we", "us", or "our"). By using the App, you agree to these Terms.
 
@@ -31,9 +31,9 @@ When using the App, you must not:
 6. Enter into the App any image or text that infringes the copyright, portrait rights, or other rights of a third party
 7. Engage in any other conduct we deem inappropriate
 
-## 4. Camera and Photos
+## 4. Photos
 
-The App uses the camera and photo library to let you attach photos to your records. Photos are stored only on your device and are not transmitted externally (see the Privacy Policy for details). You can use the App's core features by manual entry even if you do not grant camera or photo access.
+The App lets you choose photos from your device to attach to your records. Photos are stored only on your device and are not transmitted externally (see the Privacy Policy for details). You can use the App's core features by manual entry even if you do not attach photos.
 
 ## 5. Safety Notice — Reloading Is at Your Own Risk
 
@@ -56,14 +56,14 @@ We may suspend or interrupt all or part of the App without prior notice if:
 1. The App offers the following paid plans, which unlock the node visualization (charge vs. velocity vs. group-size chart), unlimited recipes and range sessions, and an ad-free experience:
    - **Lifetime**: a one-time purchase for continued access to the paid features ($49.99). No auto-renewal.
    - **Monthly**: an auto-renewing subscription ($2.99 / month)
-   - **Yearly**: an auto-renewing subscription ($18.99 / year, with a 7-day free trial for first-time subscribers)
-2. Prices follow those shown on the App's App Store product page and within the App.
-3. Payment is charged to the payment method registered to your Apple ID at the time of purchase.
-4. **Free trial (Yearly only)**: The Yearly plan includes a 7-day free trial for first-time subscribers only. Unless canceled at least 24 hours before the trial ends, it will automatically convert to the paid Yearly plan. The Monthly and Lifetime plans have no free trial.
+   - **Yearly**: an auto-renewing subscription ($18.99 / year, with a 7-day free trial for first-time subscribers on the App Store version)
+2. Prices follow those shown on the App's App Store or Google Play product page and within the App.
+3. Payment is charged to the payment method registered to your Apple ID (App Store version) or Google account (Google Play version) at the time of purchase.
+4. **Free trial (Yearly only)**: On the App Store version, the Yearly plan includes a 7-day free trial for first-time subscribers only. On the Google Play version, a trial applies only if it is shown on the purchase screen. Unless canceled at least 24 hours before the trial ends, it will automatically convert to the paid Yearly plan. The Monthly and Lifetime plans have no free trial.
 5. **Auto-renewal (Monthly / Yearly)**: The Monthly and Yearly plans renew automatically. Unless auto-renewal is turned off at least 24 hours before the end of the current period, the subscription renews and the next period is charged.
-6. **Managing / canceling subscriptions**: You can manage subscriptions, cancel a free trial, or turn off auto-renewal anytime via iOS "Settings" → "your name" → "Subscriptions". After cancellation, you retain access to the paid features until the end of the current billing period.
-7. **Restoring purchases**: A Lifetime purchase and active subscriptions can be restored via "Restore Purchases" under the same Apple ID.
-8. Due to the nature of digital content, refunds after purchase are generally not available. For refund requests, please use Apple's support page (https://reportaproblem.apple.com/).
+6. **Managing / canceling subscriptions**: You can manage subscriptions, cancel a free trial, or turn off auto-renewal anytime: for the App Store version, via iOS "Settings" → "your name" → "Subscriptions"; for the Google Play version, in the Google Play Store app → your profile icon → "Payments & subscriptions" → "Subscriptions". After cancellation, you retain access to the paid features until the end of the current billing period.
+7. **Restoring purchases**: A Lifetime purchase and active subscriptions can be restored via "Restore Purchases" under the same Apple ID (App Store version) or the same Google account (Google Play version).
+8. Due to the nature of digital content, refunds after purchase are generally not available. For refund requests, please use Apple's support page (https://reportaproblem.apple.com/) for the App Store version, or follow the steps in Google Play Help (https://support.google.com/googleplay/answer/2479637) for the Google Play version.
 
 ## 8. Disclaimer of Warranties and Limitation of Liability
 
