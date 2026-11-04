@@ -7,7 +7,7 @@ published_app: true
 
 # プライバシーポリシー
 
-最終更新日: 2026 年 7 月 3 日
+最終更新日: 2026 年 11 月 5 日
 
 hecuhecu（以下「当方」）は、モバイルアプリケーション「フィルム在庫管理 - フィルムストック」（以下「本アプリ」）におけるユーザーのプライバシーを尊重し、個人情報の保護に努めます。本ポリシーは、本アプリにおける個人情報の取扱いについて説明するものです。
 
@@ -42,7 +42,7 @@ hecuhecu（以下「当方」）は、モバイルアプリケーション「フ
 
 本アプリは以下の第三者サービスを利用しており、これらのサービスがユーザー情報を取得することがあります。各サービスのプライバシーポリシーをご確認ください。
 
-本アプリは課金処理のために RevenueCat, Inc. が提供する「RevenueCat」サービスを利用しています。RevenueCat は App Store から取得した購入レシートを処理するため、以下の情報が RevenueCat のサーバーに送信されます。
+本アプリは課金処理のために RevenueCat, Inc. が提供する「RevenueCat」サービスを利用しています。RevenueCat は App Store / Google Play から取得した購入レシートを処理するため、以下の情報が RevenueCat のサーバーに送信されます。
 
 - 匿名のユーザーID（個人を特定するものではありません）
 - 購入レシート情報
@@ -51,17 +51,20 @@ hecuhecu（以下「当方」）は、モバイルアプリケーション「フ
 RevenueCat のプライバシーポリシーは以下をご確認ください:
 [https://www.revenuecat.com/privacy/](https://www.revenuecat.com/privacy/)
 
-本アプリは決済処理のために Apple（App Store / StoreKit）を利用しています。
-[https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
+決済処理は、App Store 版では Apple（App Store / StoreKit）、Google Play 版では Google（Google Play 課金）が行います。各社のプライバシーポリシーは以下をご確認ください:
 
-## 5. iCloud 同期について（有料プラン限定）
+- Apple: [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
+- Google: [https://policies.google.com/privacy](https://policies.google.com/privacy)
 
-有料プラン（サブスクリプション）をご購入いただいたユーザーは、設定画面から iCloud 同期（Apple の CloudKit）を有効にできます。iCloud 同期を有効にした場合、フィルム在庫データ・カメラボディ・装填記録・現像ロットのデータが、同一 Apple ID に紐づく Apple の iCloud サーバーに保存され、同一 Apple ID でサインインした複数端末間で同期されます。
+## 5. iCloud 同期について（App Store 版の有料プラン限定）
+
+App Store（iOS）版の有料プラン（サブスクリプション）をご購入いただいたユーザーは、設定画面から iCloud 同期（Apple の CloudKit）を有効にできます。iCloud 同期を有効にした場合、フィルム在庫データ・カメラボディ・装填記録・現像ロットのデータが、同一 Apple ID に紐づく Apple の iCloud サーバーに保存され、同一 Apple ID でサインインした複数端末間で同期されます。
 
 - iCloud 同期は初期状態では無効になっており、ユーザーが明示的に有効化した場合のみ動作します。
 - iCloud に保存されたデータは Apple のプライバシーポリシーに従って管理されます: [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
 - 当方は iCloud 上のデータへアクセスする手段を持たず、これを取得・閲覧・利用することはありません。
 - iCloud 同期を無効化しても、端末内に保存された既存データが失われることはありません。
+- Google Play（Android）版に iCloud 同期はありません。Android 版のデータは端末内にのみ保存されます。
 
 ## 6. データの保管場所
 
