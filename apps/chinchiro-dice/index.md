@@ -7,8 +7,8 @@ slug: chinchiro-dice
 app_name: チンチロ
 tagline: 1台の端末を回して遊ぶ、サイコロ3個の役判定アプリ
 icon: /apps/chinchiro-dice/icon.png
-app_store_url: ""
-live: false
+app_store_url: "https://apps.apple.com/jp/app/id6823163996"
+live: true
 ---
 
 ## 飲み会で、1台を回してチンチロ

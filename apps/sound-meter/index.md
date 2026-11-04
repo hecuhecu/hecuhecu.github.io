@@ -2,7 +2,7 @@
 layout: app
 title: 騒音計
 permalink: /apps/sound-meter/
-published_app: false  # 審査提出時に true へ。false の間は noindex
+published_app: true  # 配信中 (2026-11-05 ASC で確認)
 slug: sound-meter
 app_name: 騒音計
 tagline: ボタン1つで、今いる場所の音の大きさを dB で表示。録音も保存もしません

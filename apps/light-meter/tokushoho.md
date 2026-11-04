@@ -2,7 +2,7 @@
 layout: legal
 title: 特定商取引法に基づく表記 — 明るさチェッカー
 permalink: /apps/light-meter/tokushoho/
-published_app: false  # 審査提出時に true へ。false の間は noindex
+published_app: true  # 配信中 (2026-11-05 ASC で確認)
 ---
 
 # 特定商取引法に基づく表記

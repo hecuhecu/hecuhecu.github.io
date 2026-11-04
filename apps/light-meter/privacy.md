@@ -2,7 +2,7 @@
 layout: legal
 title: プライバシーポリシー — 明るさチェッカー
 permalink: /apps/light-meter/privacy/
-published_app: false  # 審査提出時に true へ。false の間は noindex
+published_app: true  # 配信中 (2026-11-05 ASC で確認)
 ---
 
 # プライバシーポリシー
