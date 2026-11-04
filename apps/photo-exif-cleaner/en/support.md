@@ -15,8 +15,8 @@ For bug reports, feature requests, and other inquiries, please contact:
 - We usually reply within 3 business days
 
 It helps us respond faster if you include:
-- Your device model (e.g. iPhone 15 Pro)
-- Your iOS version
+- Your device model (e.g. iPhone 15 Pro / Pixel 8)
+- Your iOS / Android version
 - The App version (in the App: **Settings** > **About this app**)
 - The problem you are seeing / steps to reproduce it
 
@@ -47,13 +47,13 @@ A. You can select photos one at a time and check, remove, save, and share their 
 A. You can process multiple photos at once in a batch, and choose individually which items to remove (location / date and time / camera model). Ads are also removed. Pro is available as a subscription and/or a one-time purchase; the options and prices are shown in the App and on the App Store.
 
 **Q. Do I need to buy again if I change devices?**
-A. If you use the same Apple ID, you can restore your purchase with **Restore Purchases** on the purchase screen.
+A. If you use the same Apple ID (App Store version) or the same Google account (Google Play version), you can restore your purchase with **Restore Purchases** on the purchase screen.
 
 **Q. How do I cancel a subscription?**
-A. In the iOS **Settings** app > your name > **Subscriptions**, select this App and tap **Cancel Subscription**. Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current period. After cancelling, Pro features remain available until the end of the billing period.
+A. App Store version: in the iOS **Settings** app > your name > **Subscriptions**, select this App and tap **Cancel Subscription**. Google Play version: in the Google Play Store app, tap your profile icon > **Payments & subscriptions** > **Subscriptions**, select this App and tap **Cancel subscription**. Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current period. After cancelling, Pro features remain available until the end of the billing period.
 
 **Q. I would like a refund.**
-A. Refunds are handled by Apple, and we cannot issue refunds directly. Please request a refund through Apple's support page ([https://reportaproblem.apple.com/](https://reportaproblem.apple.com/)).
+A. Refunds are handled by each store, and we cannot issue refunds directly. App Store version: please request a refund through Apple's support page ([https://reportaproblem.apple.com/](https://reportaproblem.apple.com/)). Google Play version: please follow the steps in Google Play Help ([https://support.google.com/googleplay/answer/2479637](https://support.google.com/googleplay/answer/2479637)).
 
 **Q. What happens if I select a Live Photo?**
 A. Only the still image is cleaned of metadata. The video part is not processed and may still contain location data; the App lets you know about this when processing.
@@ -71,4 +71,4 @@ A. Only the still image is cleaned of metadata. The video part is not processed 
 
 ---
 
-Last updated: September 28, 2026
+Last updated: November 5, 2026

@@ -7,7 +7,7 @@ published_app: true
 
 # Terms of Service
 
-Last updated: September 28, 2026
+Last updated: November 5, 2026
 
 These Terms of Service (the "Terms") set out the conditions for using the mobile application "Metadata Cleaner: Remove EXIF" (the "App"), provided by hecuhecu (the "Provider"). By using the App, the user is deemed to have agreed to these Terms.
 
@@ -56,13 +56,13 @@ The Provider may suspend or interrupt all or part of the App without prior notic
 ## Section 7 Paid Features
 
 1. The App offers paid features ("Pro"). Pro provides batch metadata removal for multiple photos, individual selection of the items to remove (location / date and time / camera model), and removal of ads.
-2. Pro is offered as auto-renewing subscriptions and/or a one-time purchase. The available options and their prices are those shown in the App and on the App Store at the time of purchase.
-3. Payment is charged to the payment method registered to the user's Apple ID when the purchase is confirmed.
+2. Pro is offered as auto-renewing subscriptions and/or a one-time purchase. The available options and their prices are those shown in the App and on the App Store or Google Play at the time of purchase.
+3. Payment is charged to the payment method registered to the user's Apple ID (App Store version) or Google account (Google Play version) when the purchase is confirmed.
 4. **Free trials**: If a subscription includes a free trial, the subscription price is charged automatically when the trial ends unless the subscription is cancelled at least 24 hours before the end of the trial period.
 5. **Auto-renewal**: Subscriptions renew automatically. Unless auto-renewal is turned off at least 24 hours before the end of the current period, the subscription renews automatically and the next period is charged. The renewal charge is made within 24 hours before the end of the current period.
-6. **Managing and cancelling subscriptions**: The user can manage subscriptions and turn off auto-renewal at any time in the iOS **Settings** app > the user's name > **Subscriptions**. After cancelling, the Pro features remain available until the end of the current billing period.
-7. **Restoring purchases**: A one-time purchase and any active subscription can be restored under the same Apple ID with "Restore Purchases".
-8. Due to the nature of digital content, refunds after purchase are generally not available from the Provider. Refunds are handled by Apple in accordance with Apple's policy. To request a refund, please use Apple's support page ([https://reportaproblem.apple.com/](https://reportaproblem.apple.com/)).
+6. **Managing and cancelling subscriptions**: The user can manage subscriptions and turn off auto-renewal at any time: for the App Store version, in the iOS **Settings** app > the user's name > **Subscriptions**; for the Google Play version, in the Google Play Store app, tap your profile icon > **Payments & subscriptions** > **Subscriptions**. After cancelling, the Pro features remain available until the end of the current billing period.
+7. **Restoring purchases**: A one-time purchase and any active subscription can be restored under the same Apple ID (App Store version) or the same Google account (Google Play version) with "Restore Purchases".
+8. Due to the nature of digital content, refunds after purchase are generally not available from the Provider. Refunds are handled by each store in accordance with its policy. To request a refund, please use Apple's support page ([https://reportaproblem.apple.com/](https://reportaproblem.apple.com/)) for the App Store version, or follow the steps in Google Play Help ([https://support.google.com/googleplay/answer/2479637](https://support.google.com/googleplay/answer/2479637)) for the Google Play version.
 
 ## Section 8 Disclaimer of Warranties and Limitation of Liability
 

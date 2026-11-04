@@ -7,7 +7,7 @@ published_app: true
 
 # Privacy Policy
 
-Last updated: September 28, 2026
+Last updated: November 5, 2026
 
 hecuhecu (the "Provider") respects the privacy of users of the mobile application "Metadata Cleaner: Remove EXIF" (the "App") and is committed to protecting their personal information. This Privacy Policy (this "Policy") explains how personal information is handled in the App.
 
@@ -19,7 +19,7 @@ As a rule, the App does not collect information that identifies you personally.
 
 The photos you select in the App, the analysis of their metadata (such as location (GPS), camera model, and date and time taken), and the metadata removal itself **are all performed only on your device (on-device)**. The Provider never sends or stores these photos or analysis results on its own servers or anywhere else outside your device.
 
-Access to your photo library (selecting photos and saving cleaned copies) is likewise used only for processing on your device.
+Access to your photo library or, on Android, the photos on your device (selecting photos and saving cleaned copies) is likewise used only for processing on your device.
 
 ## 2. Purposes of Use
 
@@ -41,18 +41,20 @@ The App uses the following third-party services. Please refer to each service's 
 
 - **Google AdMob** (ad delivery): [https://policies.google.com/privacy](https://policies.google.com/privacy)
 - **RevenueCat** (purchase management): [https://www.revenuecat.com/privacy/](https://www.revenuecat.com/privacy/)
-- **Apple (App Store / StoreKit)** (payment processing): [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
+- **Apple (App Store / StoreKit)** (payment processing, App Store version): [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
+- **Google (Google Play Billing)** (payment processing, Google Play version): [https://policies.google.com/privacy](https://policies.google.com/privacy)
 
-RevenueCat and Apple handle an anonymous user ID and purchase receipt information in order to manage and restore purchases, but they never receive your photos or the results of metadata analysis.
+RevenueCat, Apple and Google handle an anonymous user ID and purchase receipt information in order to manage and restore purchases, but they never receive your photos or the results of metadata analysis.
 
 ## 5. Advertising
 
 The free version of the App shows ads delivered by Google AdMob.
 
-- To deliver ads, Google, as a third party, may obtain and use information such as your device's advertising identifier (IDFA). The Provider does not use this information to identify you personally.
+- To deliver ads, Google, as a third party, may obtain and use information such as your device's advertising identifier (IDFA on iOS, Advertising ID (AAID) on Android). The Provider does not use this information to identify you personally.
 - **Personalized ads** (ads more relevant to you) that use the advertising identifier are delivered only if you choose "Allow" in the iOS **App Tracking Transparency (ATT)** permission dialog.
 - If you choose "Ask App Not to Track", or if permission has not been given, only **non-personalized ads** that do not use the advertising identifier are delivered.
 - You can change tracking permission at any time in the iOS **Settings** app > **Privacy & Security** > **Tracking**.
+- On Android, you can reset or delete your Advertising ID at any time in **Settings** > **Google** > **Ads**, or **Settings** > **Privacy** > **Ads** (item names vary by device and Android version).
 - For **users in the EU / EEA and the United Kingdom**, a screen asking for consent regarding ads is shown through Google's UMP (User Messaging Platform). How ads are handled is determined by your choice.
 - If you upgrade to Pro (paid), ads are no longer shown.
 
@@ -62,7 +64,7 @@ For how Google uses data for advertising purposes, please see [https://policies.
 
 The App's core feature, removing location data and other metadata from photos, is built on the following design principles.
 
-- Analysis of the photos you select (detecting GPS, camera model, and date and time taken) is performed by ImageIO processing on your device. **No upload to any server ever takes place.**
+- Analysis of the photos you select (detecting GPS, camera model, and date and time taken) is performed on your device (using ImageIO on iOS). **No upload to any server ever takes place.**
 - Metadata removal is also completed entirely on your device, and the cleaned copy is saved directly to your device's photo library.
 - The original photo is not modified. The App works by saving a new, cleaned copy in addition to the original.
 - The App is designed so that it can analyze, clean, and save photos without any network communication (other than for showing ads, processing purchases, checking for app updates, and the like).

@@ -7,7 +7,7 @@ published_app: true  # 審査提出時に true へ。false の間は noindex
 
 # プライバシーポリシー
 
-最終更新日: 2026 年 7 月 1 日
+最終更新日: 2026 年 11 月 5 日
 
 hecuhecu（以下「当方」）は、モバイルアプリケーション「推しプロフメーカー」（以下「本アプリ」）におけるユーザーのプライバシーを尊重し、個人情報の保護に努めます。本ポリシーは、本アプリにおける個人情報の取扱いについて説明するものです。
 
@@ -15,7 +15,7 @@ hecuhecu（以下「当方」）は、モバイルアプリケーション「推
 
 本アプリは、原則として個人を特定する情報を収集しません。
 
-本アプリでお選びいただいた画像、および入力されたテキスト（推しの名前・推し歴・好きなところ・ひとこと等）、生成されたプロフィールカード画像は、すべてお客様の端末内でのみ処理されます。これらのデータを当方のサーバーや外部へ送信・保存することは一切ありません。写真ライブラリへのアクセス（画像の選択）も、端末内での処理のみに用います。
+本アプリでお選びいただいた画像、および入力されたテキスト（推しの名前・推し歴・好きなところ・ひとこと等）、生成されたプロフィールカード画像は、すべてお客様の端末内でのみ処理されます。これらのデータを当方のサーバーや外部へ送信・保存することは一切ありません。写真ライブラリへのアクセス（画像の選択）も、端末内での処理のみに用います（Android ではシステム標準の写真選択画面を使用します）。
 
 ## 2. 情報の利用目的
 
@@ -37,16 +37,19 @@ hecuhecu（以下「当方」）は、モバイルアプリケーション「推
 
 - **Google AdMob**（広告配信）: [https://policies.google.com/privacy](https://policies.google.com/privacy)
 - **RevenueCat**（課金管理）: [https://www.revenuecat.com/privacy/](https://www.revenuecat.com/privacy/)
-- **Apple（App Store / StoreKit）**（決済処理）: [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
+- **Apple（App Store / StoreKit）**（決済処理・App Store 版）: [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
+- **Google（Google Play 課金）**（決済処理・Google Play 版）: [https://policies.google.com/privacy](https://policies.google.com/privacy)
 
-RevenueCat および Apple は、購入の管理・復元のために匿名の購入識別子を扱いますが、お客様の画像・入力データを取得することはありません。
+RevenueCat、Apple および Google は、購入の管理・復元のために匿名の購入識別子を扱いますが、お客様の画像・入力データを取得することはありません。
 
 ## 5. 広告について
 
 本アプリの無料版では、Google AdMob による広告を表示します。
 
 - 本アプリで表示する広告は**非パーソナライズ広告**（お客様の興味関心のプロファイリングに基づかない広告）として配信するよう設定しています。
-- 広告配信のために、広告識別子等の情報が Google に取得される場合があります。当方はこれらの情報を用いてお客様個人を特定することはありません。
+- 広告配信のために、広告識別子（Android の広告 ID（AAID））等の情報が Google に取得される場合があります。当方はこれらの情報を用いてお客様個人を特定することはありません。
+- iOS では、本アプリは App Tracking Transparency（ATT）によるトラッキングの許可を求めず、広告識別子（IDFA）を利用しません。
+- Android では、広告 ID（AAID）は端末の「設定」→「Google」→「広告」、または「設定」→「プライバシー」→「広告」からいつでもリセット・削除できます（表示される項目名は端末や Android のバージョンにより異なります）。
 - **EU / EEA および英国のユーザー**に対しては、Google の UMP（User Messaging Platform）を通じて、広告に関する同意の取得画面を表示します。お客様の選択に応じて広告の取扱いが決定されます。
 - Pro（有料）にアップグレードいただくと、広告は表示されなくなります。
 
