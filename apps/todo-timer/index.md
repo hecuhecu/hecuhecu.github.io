@@ -8,7 +8,7 @@ app_name: TODOタイマー | タイマー付きTODOリスト
 tagline: やることを決めて、集中する
 icon: /icon_todo.png
 app_store_url: "https://apps.apple.com/jp/app/id1613885003"
-tokushoho: false
+tokushoho: true
 live: true
 ---
 

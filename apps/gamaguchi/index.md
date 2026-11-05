@@ -8,7 +8,7 @@ app_name: がまぐち - 衝動買いを我慢して貯める節約
 tagline: 我慢するたびお金が貯まる節約アプリ
 icon: /icon_gamaguchi.png
 app_store_url: "https://apps.apple.com/jp/app/id6761958213"
-tokushoho: false
+tokushoho: true
 live: true
 ---
 
