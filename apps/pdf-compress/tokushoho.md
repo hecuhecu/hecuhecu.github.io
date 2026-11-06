@@ -66,7 +66,7 @@ App Store / Google Play の本アプリ商品ページおよびアプリ内表�
 
 本サービスはデジタルコンテンツの提供であるため、特定商取引法に基づくクーリングオフの対象外となります。
 
-ご購入後の返金については、Apple のポリシーに準拠します。返金をご希望の場合は、App Store 版は Apple のサポートページ（https://reportaproblem.apple.com/）、Google Play 版は Google Play ヘルプ（https://support.google.com/googleplay/answer/2479637）の手順に沿ってお手続きください。当事業者から直接返金を行うことはできません。
+ご購入後の返金については、App Store 版は Apple、Google Play 版は Google Play のポリシーに準拠します。返金をご希望の場合は、App Store 版は Apple のサポートページ（https://reportaproblem.apple.com/）、Google Play 版は Google Play ヘルプ（https://support.google.com/googleplay/answer/2479637）の手順に沿ってお手続きください。当事業者から直接返金を行うことはできません。
 
 ## 動作環境
 
@@ -79,4 +79,4 @@ App Store / Google Play の本アプリ商品ページに記載
 
 ---
 
-**最終更新日**: 2026 年 11 月 5 日
+**最終更新日**: 2026 年 11 月 6 日
