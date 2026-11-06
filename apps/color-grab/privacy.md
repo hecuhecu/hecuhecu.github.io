@@ -7,7 +7,7 @@ published_app: true  # 審査提出時に true へ。false の間は noindex
 
 # プライバシーポリシー
 
-最終更新日: 2026 年 11 月 5 日
+最終更新日: 2026 年 11 月 6 日
 
 hecuhecu（以下「当方」）は、モバイルアプリケーション「カラーピッカー - Color Grab」（以下「本アプリ」）におけるユーザーのプライバシーを尊重し、個人情報の保護に努めます。本ポリシーは、本アプリにおける個人情報の取扱いについて説明するものです。
 
@@ -51,7 +51,7 @@ RevenueCat のプライバシーポリシーは以下をご確認ください:
 - Apple: [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
 - Google: [https://policies.google.com/privacy](https://policies.google.com/privacy)
 
-本アプリの無料版では、Google LLC が提供する「Google AdMob」を通じて広告（バナー広告・アプリ起動時の広告）を表示します。広告の配信・表示回数の制御・効果測定のため、AdMob は以下の情報を収集・処理することがあります。
+本アプリの無料版では、Google LLC が提供する「Google AdMob」を通じて広告（バナー広告・アプリ復帰時の広告）を表示します。広告の配信・表示回数の制御・効果測定のため、AdMob は以下の情報を収集・処理することがあります。
 
 - 広告識別子（iOS の IDFA、Android の広告 ID（AAID））等のデバイス識別子
 - デバイスの種類やおおまかな地域といった粗い情報
