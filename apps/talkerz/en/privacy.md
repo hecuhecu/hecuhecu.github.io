@@ -117,7 +117,7 @@ Regarding data transfer destinations, the services above may transfer part of a 
 
 ## Section 8 Retention Period
 
-1. Recordings stored on the device are kept for 30 days by default, and you can choose 7, 30, or 90 days in Settings. After that period only the recording is deleted; scores, feedback, and transcripts remain on the device.
+1. Recordings stored on the device are kept for 30 days by default, and you can choose 7, 30, or 90 days in Settings. After that period only the recording is deleted; scores, feedback, and transcripts remain on the device. However, for the "you then, and you now" before-and-after listening feature, your first recording is excluded from the retention period and remains on the device (it is deleted if you delete that recording individually or delete all data).
 2. You can delete all practice records, recordings, and loaded scripts on the device at once from **Settings** > **Delete all data**. Deleting the App also removes the data on the device.
 3. The Provider does not store the audio and transcripts sent to the external AI service. How they are handled on the external service's side follows that service provider's policy.
 4. The Provider retains any other personal information only for the period necessary to achieve the purposes of use.
@@ -150,4 +150,4 @@ For inquiries about this Policy, please contact:
 ---
 
 **Effective date**: November 11, 2026
-**Last updated**: November 11, 2026
+**Last updated**: November 12, 2026
