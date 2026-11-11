@@ -46,4 +46,4 @@ live: false
 
 無料のままでも、リワード広告の視聴により AI との壁打ち (簡易版) を 1 日 1 回お試しいただけます。プレミアムでは広告は表示されません。
 
-年額プランには 7 日間の無料トライアルがあります。詳細は[利用規約](/apps/gutai-chusho/terms/)および[特定商取引法に基づく表記](/apps/gutai-chusho/tokushoho/)をご確認ください。
+年額プランには 3 日間の無料トライアルがあります。詳細は[利用規約](/apps/gutai-chusho/terms/)および[特定商取引法に基づく表記](/apps/gutai-chusho/tokushoho/)をご確認ください。

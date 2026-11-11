@@ -21,7 +21,7 @@ It helps us investigate faster if you include your device (model name and iOS ve
 
 No. The thinking-ability assessment and its results, five training questions a day, writing in the abstraction game, "Community Answers", and your incorrect questions are all free to use.
 
-Premium (subscription) adds AI feedback on written answers, AI dialogue in the abstraction game (full version, up to 5 times a day), Why-type thinking training, and viewing your records for the full period (the free tier shows the last 7 days). The annual plan includes a 7-day free trial.
+Premium (subscription) adds AI feedback on written answers, AI dialogue in the abstraction game (full version, up to 5 times a day), Why-type thinking training, and viewing your records for the full period (the free tier shows the last 7 days). The annual plan includes a 3-day free trial.
 
 ### Can I try the AI responses while staying on the free tier?
 
