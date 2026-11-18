@@ -2,7 +2,7 @@
 layout: app
 title: Talkerz
 permalink: /apps/talkerz/
-published_app: false  # 審査提出時に true へ。false の間は noindex
+published_app: true
 slug: talkerz
 app_name: Talkerz
 tagline: 毎日1分、話す練習で話し方に点数がつく

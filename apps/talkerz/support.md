@@ -2,7 +2,7 @@
 layout: legal
 title: サポート — Talkerz
 permalink: /apps/talkerz/support/
-published_app: false
+published_app: true
 ---
 
 # サポート

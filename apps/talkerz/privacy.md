@@ -2,7 +2,7 @@
 layout: legal
 title: プライバシーポリシー — Talkerz
 permalink: /apps/talkerz/privacy/
-published_app: false
+published_app: true
 ---
 
 # プライバシーポリシー
