@@ -23,7 +23,7 @@ The App has no account registration, and no name or email address is required.
 
 The following information is stored only in the database and files on your device, and the Provider does not collect it (except where it is sent for story generation as described in Section 6).
 
-- Profile information such as your wishes, your name, your partner's name, and job
+- Profile information such as your wishes, your name, your partner's name, the names of people close to you who may appear in stories and their relationship to you, and job
 - The text of generated stories and their audio
 - Your wish list, your "came true" records, and the number of nights you have continued
 - Settings such as the chosen scene, voice, sleep timer, and reminders
@@ -32,7 +32,7 @@ The following information is stored only in the database and files on your devic
 
 To create a story and its audio, the following is sent to an external AI service (see Section 6).
 
-- The wish text you enter, the wish category, your name, your partner's name, your job, and any additional details you enter
+- The wish text you enter, the wish category, your name, your partner's name, the names of people close to you and their relationship to you, your job, and any additional details you enter
 - The display language and the type of voice you selected
 - The text of the generated story (to create the audio)
 
@@ -102,10 +102,10 @@ Regarding data transfer destinations, the services above may transfer part of a 
 
 ## Section 6 Story Generation and the Use of AI
 
-1. The wish text, wish category, your name, your partner's name, job, additional details, display language, and the type of voice you selected are sent to Google's Gemini (Firebase AI Logic) in order to generate the story text. The text of the generated story is then sent to Gemini again in order to generate the audio.
+1. The wish text, wish category, your name, your partner's name, the names of people close to you and their relationship to you, job, additional details, display language, and the type of voice you selected are sent to Google's Gemini (Firebase AI Logic) in order to generate the story text. The text of the generated story is then sent to Gemini again in order to generate the audio.
 2. No identifying information such as an email address is attached when data is sent. However, whatever the User types into fields such as their name or their partner's name is sent as entered.
 3. The App uses the Gemini API under a paid plan, and the content sent is not used by Google to train AI models.
-4. Users should take care not to include sensitive personal information, confidential information, or content that could harm real third parties, of their own or of others, in the wish text or any input field. Entering a partner's name or a job is optional.
+4. Users should take care not to include sensitive personal information, confidential information, or content that could harm real third parties, of their own or of others, in the wish text or any input field. Entering a partner's name, the names of people close to you, or a job is optional.
 5. Apart from the features described above, the App does not send User input to any external AI service. The App also does not send wishes, names, or story content to usage analytics (Firebase Analytics).
 6. Generated stories are works of fiction created by AI, and their accuracy and appropriateness are not guaranteed.
 
@@ -144,4 +144,4 @@ For inquiries about this Policy, please contact:
 ---
 
 **Effective date**: November 16, 2026
-**Last updated**: November 16, 2026
+**Last updated**: November 19, 2026
