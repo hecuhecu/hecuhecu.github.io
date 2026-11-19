@@ -2,7 +2,7 @@
 layout: legal
 title: Terms of Use — Solia
 permalink: /apps/manifest-story/terms_en.html
-published_app: false
+published_app: true
 ---
 
 # Terms of Use

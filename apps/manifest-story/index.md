@@ -2,7 +2,7 @@
 layout: app
 title: Solia
 permalink: /apps/manifest-story/
-published_app: false  # 審査提出時に true へ。false の間は noindex
+published_app: true
 slug: manifest-story
 app_name: Solia
 tagline: 叶ったあとの1日を、眠る前に聞く物語に

@@ -2,7 +2,7 @@
 layout: legal
 title: Privacy Policy — Solia
 permalink: /apps/manifest-story/privacy_en.html
-published_app: false
+published_app: true
 ---
 
 # Privacy Policy

@@ -2,7 +2,7 @@
 layout: legal
 title: Support — Solia
 permalink: /apps/manifest-story/support_en.html
-published_app: false
+published_app: true
 ---
 
 # Support

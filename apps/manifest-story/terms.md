@@ -2,7 +2,7 @@
 layout: legal
 title: 利用規約 — Solia
 permalink: /apps/manifest-story/terms.html
-published_app: false
+published_app: true
 ---
 
 # 利用規約

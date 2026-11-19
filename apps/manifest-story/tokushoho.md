@@ -2,7 +2,7 @@
 layout: legal
 title: 特定商取引法に基づく表記 — Solia
 permalink: /apps/manifest-story/tokushoho.html
-published_app: false
+published_app: true
 ---
 
 # 特定商取引法に基づく表記
