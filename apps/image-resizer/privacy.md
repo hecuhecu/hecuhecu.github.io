@@ -50,7 +50,7 @@ hecuhecu（以下「当方」）は、モバイルアプリケーション「画
 - デバイスの種類やおおまかな地域といった粗い情報
 - 広告の表示・操作に関する情報
 
-iOS では、トラッキング目的の識別子を利用する前に、Apple の App Tracking Transparency（ATT）フレームワークを通じて許可を求めます。**許可しない場合は非パーソナライズ広告のみが表示され**、本アプリのすべての機能は引き続きご利用いただけます。欧州経済領域（EEA）および英国のユーザーには、適用される規制に従い同意フォームを表示します。
+iOS では、トラッキング目的の識別子を利用する前に、Apple の App Tracking Transparency（ATT）フレームワークを通じて許可を求めます。**許可しない場合は非パーソナライズ広告のみが表示され**、本アプリのすべての機能は引き続きご利用いただけます。欧州経済領域（EEA）および英国のユーザーには、適用される規制に従い同意フォームを表示します。同意フォームの対象となる地域のユーザーは、アプリ内の「設定」から広告に関する同意の内容をいつでも変更できます。
 
 - Google のプライバシーポリシー: [https://policies.google.com/privacy](https://policies.google.com/privacy)
 - Google のサービスを使用するサイトやアプリから収集した情報の Google による使用: [https://policies.google.com/technologies/partner-sites](https://policies.google.com/technologies/partner-sites)
