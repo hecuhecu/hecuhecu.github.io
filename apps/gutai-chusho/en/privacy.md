@@ -103,6 +103,7 @@ The Provider uses the following external services to operate the App. Through th
 | RevenueCat | RevenueCat, Inc. (USA) | Managing and analyzing subscriptions | USA | [Link](https://www.revenuecat.com/privacy) |
 | Firebase AI Logic (Gemini API) | Google LLC (USA) | Generating feedback and responses for written answers | USA | [Link](https://firebase.google.com/support/privacy) |
 | Google AdMob | Google LLC (USA) | Ad delivery and measurement | USA | [Link](https://policies.google.com/technologies/ads) |
+| Meta Audience Network | Meta Platforms, Inc. (USA) | Ad delivery and measurement | USA | [Link](https://www.facebook.com/privacy/policy/) |
 
 Regarding data transfer destinations, the services above may transfer part of a User's personal information outside Japan (to the USA and elsewhere). For an overview of the personal information protection regimes of individual countries, please see the website of Japan's Personal Information Protection Commission ([https://www.ppc.go.jp/](https://www.ppc.go.jp/)).
 
@@ -116,8 +117,8 @@ Regarding data transfer destinations, the services above may transfer part of a 
 
 ## Section 7 Advertising
 
-1. For Users on the free tier, the App may show rewarded ads (video ads) that the User themselves chooses to start. The App does not show banner ads, interstitial ads, or app open ads. Users with a Premium Plan are not shown ads.
-2. Ads are delivered using Google AdMob, provided by Google LLC. AdMob may collect information such as advertising identifiers for ad delivery and measurement. AdMob's privacy policy is available at [https://policies.google.com/technologies/ads](https://policies.google.com/technologies/ads).
+1. For Users on the free tier, the App may show rewarded ads (video ads) that the User themselves chooses to start, and interstitial ads shown between screens. The App does not show banner ads or app open ads. Users with a Premium Plan are not shown ads.
+2. Ads are delivered using Google AdMob, provided by Google LLC, and may include ads from Meta Audience Network, provided by Meta Platforms, Inc., delivered through AdMob. These services may collect information such as advertising identifiers for ad delivery and measurement. AdMob's privacy policy is available at [https://policies.google.com/technologies/ads](https://policies.google.com/technologies/ads).
 3. For Users in the European Economic Area and the United Kingdom, consent is obtained through a consent management platform (Google UMP) before ads are loaded. If consent is not given, non-personalized ads are delivered.
 4. On iOS, the App requests permission through App Tracking Transparency before any tracking using the advertising identifier (IDFA). If the User does not grant permission, no tracking using the IDFA is performed. This permission can be changed at any time in the iOS **Settings** app > **Privacy & Security** > **Tracking**.
 
@@ -154,4 +155,4 @@ For inquiries about this Policy, please contact:
 ---
 
 **Effective date**: August 11, 2026
-**Last updated**: October 3, 2026
+**Last updated**: November 24, 2026

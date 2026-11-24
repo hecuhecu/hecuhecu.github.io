@@ -103,6 +103,7 @@ hecuhecu (以下、「当事業者」といいます。) は、当事業者が�
 | RevenueCat | RevenueCat, Inc. (米国) | サブスクリプションの管理・分析 | 米国 | [リンク](https://www.revenuecat.com/privacy) |
 | Firebase AI Logic (Gemini API) | Google LLC (米国) | 記述回答の講評・応答の生成 | 米国 | [リンク](https://firebase.google.com/support/privacy) |
 | Google AdMob | Google LLC (米国) | 広告の配信・計測 | 米国 | [リンク](https://policies.google.com/technologies/ads) |
+| Meta Audience Network | Meta Platforms, Inc. (米国) | 広告の配信・計測 | 米国 | [リンク](https://www.facebook.com/privacy/policy/) |
 
 データ移転先について、上記のサービスはユーザーの個人情報の一部を日本国外 (米国等) に移転する可能性があります。各国における個人情報保護に関する制度の概要は、個人情報保護委員会のウェブサイト ([https://www.ppc.go.jp/](https://www.ppc.go.jp/)) をご確認ください。
 
@@ -116,8 +117,8 @@ hecuhecu (以下、「当事業者」といいます。) は、当事業者が�
 
 ## 第 7 条 (広告について)
 
-1. 本アプリは、無料でご利用のユーザーに対し、ユーザーご自身の操作を起点とするリワード広告 (動画広告) を表示することがあります。バナー広告、インタースティシャル広告および起動時広告は表示しません。プレミアムプランにご登録のユーザーには広告を表示しません。
-2. 広告の配信には Google LLC が提供する Google AdMob を利用します。AdMob は広告の配信・計測のために広告識別子等の情報を取得することがあります。AdMob のプライバシーポリシーは [https://policies.google.com/technologies/ads](https://policies.google.com/technologies/ads) をご確認ください。
+1. 本アプリは、無料でご利用のユーザーに対し、ユーザーご自身の操作を起点とするリワード広告 (動画広告) や、画面の切り替わりに表示するインタースティシャル広告を表示することがあります。バナー広告および起動時広告は表示しません。プレミアムプランにご登録のユーザーには広告を表示しません。
+2. 広告の配信には Google LLC が提供する Google AdMob を利用し、AdMob を通じて Meta Platforms, Inc. が提供する Meta Audience Network の広告を配信することがあります。これらのサービスは広告の配信・計測のために広告識別子等の情報を取得することがあります。AdMob のプライバシーポリシーは [https://policies.google.com/technologies/ads](https://policies.google.com/technologies/ads) をご確認ください。
 3. 欧州経済領域および英国のユーザーに対しては、広告の読み込み前に同意管理プラットフォーム (Google UMP) による同意取得を行います。同意が得られない場合は、パーソナライズされていない広告を配信します。
 4. iOS においては、広告識別子 (IDFA) を用いたトラッキングを行う前に、App Tracking Transparency による許可を求めます。ユーザーが許可しない場合、IDFA を用いたトラッキングは行いません。許可の設定は、iOS の「設定」＞「プライバシーとセキュリティ」＞「トラッキング」からいつでも変更できます。
 
@@ -154,4 +155,4 @@ hecuhecu (以下、「当事業者」といいます。) は、当事業者が�
 ---
 
 **制定日**: 2026 年 8 月 11 日
-**最終更新日**: 2026 年 10 月 3 日
+**最終更新日**: 2026 年 11 月 24 日
