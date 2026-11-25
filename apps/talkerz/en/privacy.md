@@ -112,7 +112,7 @@ Regarding data transfer destinations, the services above may transfer part of a 
 
 1. For Users on the free tier, the App may show rewarded ads (video ads) that the User themselves chooses to start. The App does not show banner ads, interstitial ads, or app open ads. Users with a Premium Plan are not shown ads.
 2. Ads are delivered using Google AdMob, provided by Google LLC. AdMob may collect information such as advertising identifiers for ad delivery and measurement. AdMob's privacy policy is available at [https://policies.google.com/technologies/ads](https://policies.google.com/technologies/ads).
-3. For Users in the European Economic Area and the United Kingdom, consent is obtained through a consent management platform (Google UMP) before ads are loaded. If consent is not given, non-personalized ads are delivered.
+3. For Users in the European Economic Area and the United Kingdom, consent is obtained through a consent management platform (Google UMP) before ads are loaded. If consent is not given, non-personalized ads are delivered. Users in regions where the consent form applies can change their ad consent choices at any time in the App's Settings.
 4. On iOS, the App requests permission through App Tracking Transparency before any tracking using the advertising identifier (IDFA). If the User does not grant permission, no tracking using the IDFA is performed and non-personalized ads are delivered. This permission can be changed at any time in the iOS **Settings** app > **Privacy & Security** > **Tracking**.
 
 ## Section 8 Retention Period
