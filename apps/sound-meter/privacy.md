@@ -7,7 +7,7 @@ published_app: true  # 配信中 (2026-11-05 ASC で確認)
 
 # プライバシーポリシー
 
-最終更新日: 2026 年 11 月 5 日
+最終更新日: 2026 年 11 月 26 日
 
 hecuhecu（以下「当方」）は、モバイルアプリケーション「騒音計」（以下「本アプリ」）におけるユーザーのプライバシーを尊重し、その保護に努めます。本ポリシーは、本アプリにおける情報の取扱いについて説明するものです。
 
@@ -64,6 +64,10 @@ hecuhecu（以下「当方」）は、モバイルアプリケーション「騒
 
 - Google のプライバシーポリシー: [https://policies.google.com/privacy](https://policies.google.com/privacy)
 - Google のサービスを使用するサイトやアプリから収集した情報の Google による使用: [https://policies.google.com/technologies/partner-sites](https://policies.google.com/technologies/partner-sites)
+
+AdMob を通じて、Meta Platforms, Inc. が提供する **Meta Audience Network** の広告を配信することがあります。Meta Audience Network も、広告の配信・効果測定のために上記と同種の情報（広告識別子、広告データ等）を収集・処理することがあります。
+
+- Meta のプライバシーポリシー: [https://www.facebook.com/privacy/policy/](https://www.facebook.com/privacy/policy/)
 
 **プレミアム（広告非表示）をご利用中のユーザーには広告を表示しません。**
 
